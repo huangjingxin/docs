@@ -1,0 +1,12 @@
+{
+  "name": "vuepressblog",
+  "version": "1.0.0",
+  "description": "hjx24.com",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "huangjx",
+  "license": "ISC"
+}
