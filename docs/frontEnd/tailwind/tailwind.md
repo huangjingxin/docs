@@ -17,23 +17,57 @@ const tailwindcss = require('./tailwind');
 import 'tailwindcss/dist/tailwind.min.css'
 ```
 
+## 布局
+
+### flex布局
+
+| 样式     | 写法           | 属性                    |
+| -------- | -------------- | ----------------------- |
+| 盒子     | flex           | display: flex           |
+| 方向     | flex-row       | flex-direction: row     |
+| 不换行   | flex-no-wrap   | flex-wrap: nowrap       |
+| 水平居中 | justify-center | justify-content: center |
+| 垂直居中 | items-center   | align-items: center     |
+| 特例     | self-center    | align-self: center      |
+| 自适应   | flex-1         | flex: 1                 |
+
+### 其它布局
+
+| 样式     | 写法        | 属性               |
+| -------- | ----------- | ------------------ |
+| 行内元素水平居中 | text-center | text-align: center |
+|     行内元素垂直居中     |      align-middle      | vertical-align: middle |
+| 是否换行 | whitespace-normal | white-space: normal |
+
+
+## 字体
+
+| 样式     | 写法           | 属性 |
+| -------- | -------------- | ---- |
+| 大小     | text-lg        |   font-size: large   |
+| 粗细     | font-bold      |  font-weight: bold    |
+| 左右间距 | tracking-wide  |   letter-spacing: 2px   |
+| 上下间距 | leading-normal |    line-height: normal  |
+
+## 样式
+
+| 样式     | 写法      | 属性                    |
+| -------- | ---------- | ----------------------------- |
+| 列表 | list-reset | list-style: none; padding: 0; |
+|  A标签| no-underline | text-decoration: none |
+| 下划线 | underline | text-decoration: underline |
+
+## 杂项
+
+| 样式     | 写法      | 属性                    |
+| ---- | ---- | ---- |
+| 鼠标手 | cursor-pointer | cursor: pointer |
+| 阴影 | shadow | box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10) |
+| 透明 | opacity-50 | opacity: .5 |
+| 外框 | outline-none | outline: 0 |
+
 ## [颜色](https://www.tailwindcss.cn/docs/colors/)
 
 常用颜色的查询及使用
 
 ![colors](./tailwind.jpg)
-
-## 字体
-
-| 样式     | 名称           | 写法           |
-| -------- | -------------- | -------------- |
-| 大小     | font-size      | text-lg        |
-| 粗细     | font-weight    | font-bold      |
-| 左右间距 | letter-spacing | tracking-wide  |
-| 上下间距 | line-height    | leading-normal |
-
-## 列表
-
-| 样式     | Class      | Properties                    |
-| -------- | ---------- | ----------------------------- |
-| 去掉样式 | list-reset | list-style: none; padding: 0; |

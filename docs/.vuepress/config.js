@@ -8,7 +8,7 @@ module.exports = {
     }],
   ],
   themeConfig: {
-    lastUpdated: 'Last Updated',
+    lastUpdated: '最后更新',
     sidebar: 'auto',
     nav: [{
         text: '主页',
@@ -35,6 +35,10 @@ module.exports = {
           {
             text: '常用符号',
             link: '/notes/symbol/special-symbols.md'
+          },
+          {
+            text: 'git',
+            link: '/notes/git/'
           },
           {
             text: '其它',
