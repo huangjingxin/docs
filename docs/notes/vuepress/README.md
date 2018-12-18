@@ -74,3 +74,6 @@ new Vue({
 })
 ```
 
+## 建站问题
+
+[使用 vuepress 建站遇到的一些问题](./vuepress-bugs.md)

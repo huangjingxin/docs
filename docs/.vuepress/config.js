@@ -23,14 +23,18 @@ module.exports = {
           {
             text: 'Tailwind',
             link: '/frontEnd/tailwind/tailwind.md'
-          }
+          },
+          {
+            text: 'npm',
+            link: '/frontEnd/npm/'
+          },
         ]
       },
       {
         text: '记事本',
         items: [{
             text: 'Vuepress',
-            link: '/notes/vuepress/Vuepress建站.md'
+            link: '/notes/vuepress/'
           },
           {
             text: '常用符号',
