@@ -7,6 +7,7 @@ module.exports = {
       href: '/logo.png'
     }],
   ],
+  port:5000,
   themeConfig: {
     lastUpdated: '最后更新',
     sidebar: 'auto',
@@ -25,7 +26,11 @@ module.exports = {
             link: '/frontEnd/tailwind/tailwind.md'
           },
           {
-            text: 'npm',
+            text: 'Animate',
+            link: '/frontEnd/animate/animate.md'
+          },
+          {
+            text: 'Npm',
             link: '/frontEnd/npm/'
           },
         ]

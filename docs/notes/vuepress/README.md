@@ -5,6 +5,9 @@
 ## 常用命令
 
 ```bash
+# yarn 安装 vuepress
+yarn global add vuepress
+
 # 新建一个 markdown 文件
 echo '# Hello VuePress!' > README.md
 
