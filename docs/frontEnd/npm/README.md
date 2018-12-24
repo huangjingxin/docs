@@ -34,6 +34,9 @@ npm update -g <name>
 
 # 更新所有包
 npm update node_modules
+
+# 更新自身
+ npm install -g npm
 ```
 
 ## 查看版本
@@ -53,5 +56,13 @@ npm ls -g --depth 0
 npm info <name>
 ```
 
+## 更换镜像
 
+```bash
+# 修改设置，默认是 https://registry.npmjs.org （需要科学上网）
+npm config set registry https://registry.npm.taobao.org --global
+
+# 查看是否修改成功
+npm config get registry
+```
 
