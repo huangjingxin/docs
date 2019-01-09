@@ -12,10 +12,10 @@ yarn global add vuepress
 echo '# Hello VuePress!' > README.md
 
 # 项目运行
-yarn docs:dev # 或者：npm run docs:dev
+vuepress dev docs
 
 #生成静态文件
-yarn docs:build # 或者：npm run docs:build
+vuepress build docs
 ```
 
 ## 目录结构

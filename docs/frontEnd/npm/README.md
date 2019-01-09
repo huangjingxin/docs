@@ -36,7 +36,7 @@ npm update -g <name>
 npm update node_modules
 
 # 更新自身
- npm install -g npm
+npm install -g npm
 ```
 
 ## 查看版本
@@ -64,5 +64,29 @@ npm config set registry https://registry.npm.taobao.org --global
 
 # 查看是否修改成功
 npm config get registry
+```
+
+## 使用yarn
+
+```bash
+# 全局安装 yarn
+npm i -g yarn
+
+# 使用 yarn,最好也改一下安装源
+yarn config set registry https://registry.npm.taobao.org --global
+
+# 查看是否修改成功
+yarn config get registry
+```
+
+## 常用的全局包
+
+```bash
+npm i -g webpack
+npm i -g vue-cli
+npm i -g live-server
+npm i -g hotel
+npm i -g json-server
+npm i -g hexo-cli
 ```
 

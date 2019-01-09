@@ -7,7 +7,7 @@ module.exports = {
       href: '/logo.png'
     }],
   ],
-  port:5000,
+  port: 2005,
   themeConfig: {
     lastUpdated: '最后更新',
     sidebar: 'auto',
@@ -33,11 +33,20 @@ module.exports = {
             text: 'Npm',
             link: '/frontEnd/npm/'
           },
+          {
+            text: '其它',
+            link: '/frontEnd/misc/'
+          },
         ]
       },
       {
         text: '记事本',
-        items: [{
+        items: [
+          {
+            text: 'windows',
+            link: '/notes/windows/'
+          },
+          {
             text: 'Vuepress',
             link: '/notes/vuepress/'
           },
@@ -58,7 +67,7 @@ module.exports = {
 
       {
         text: '开发环境',
-        link: '/development/Vue环境搭建.md'
+        link: '/development/Vue.md'
       },
     ]
 

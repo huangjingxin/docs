@@ -1,7 +1,8 @@
 # 其它
 > 此文件夹主要存放一些零碎的东西。
 
-- [我喜欢的歌曲](musics.md)
+## 关于php
 
-- [我喜欢看的书](books.md)
+- [phpstudy设置](phpstudy.md)
+- [composer安装](composer.md)
 
