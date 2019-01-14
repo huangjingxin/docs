@@ -34,7 +34,7 @@ module.exports = {
             link: '/frontEnd/npm/'
           },
           {
-            text: '其它',
+            text: '学习笔记',
             link: '/frontEnd/misc/'
           },
         ]
@@ -43,7 +43,7 @@ module.exports = {
         text: '记事本',
         items: [
           {
-            text: 'windows',
+            text: 'Windows',
             link: '/notes/windows/'
           },
           {
@@ -55,7 +55,7 @@ module.exports = {
             link: '/notes/symbol/special-symbols.md'
           },
           {
-            text: 'git',
+            text: 'Git',
             link: '/notes/git/'
           },
           {

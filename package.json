@@ -1,7 +1,7 @@
 {
   "name": "vuepressblog",
   "version": "1.0.0",
-  "description": "hjx24.com",
+  "description": "docs.hjx24.com",
   "main": "index.js",
   "scripts": {
     "start": "vuepress dev docs",

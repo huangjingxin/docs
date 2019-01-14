@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 修改端口号
 
 修改 config/index.js 中的 port ，比如：

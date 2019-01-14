@@ -12,25 +12,25 @@
 
 系统属性➩远程➩允许
 
-![共享](img\share.jpg)
+![共享](./img/share.jpg)
 
 2）防火墙关闭
 
 专用、公用都关闭
 
-![防火墙](img\firewall.jpg)
+![防火墙](./img/firewall.jpg)
 
 3）开启远程服务
 
-运行 services.msc ➩开启 Remote Desktop services![远程服务](img\remote-service.jpg)
+运行 services.msc ➩开启 Remote Desktop services![远程服务](./img/remote-service.jpg)
 
 4）关闭密码保护
 
 网络和共享中心➩高级共享设置➩启用网络发现&关闭密码保护共享
 
-![启用网络发现](img\connect-find.jpg)
+![启用网络发现](./img/connect-find.jpg)
 
-![关闭密码保护](img\close-password.jpg)
+![关闭密码保护](./img/close-password.jpg)
 
 5）磁盘共享
 
@@ -38,15 +38,15 @@
 
 ### 共享文件
 
-​        \\\\192.168.2.102\D$
+​        ////192.168.2.102/D$
 
-![ftp](img\ftp.jpg)
+![ftp](./img/ftp.jpg)
 
 ### 远程桌面
 
 ​	运行 mstsc ➩输入对方电脑 IP
 
-![remote](img\remote-desktop.jpg)
+![remote](./img/remote-desktop.jpg)
 
 
 
@@ -56,13 +56,18 @@
 
 ### iphone 和 ipad 使用 **nplayer** 
 
-​       ![](https://img.25pp.com/uploadfile/app/icon/20171024/1508857317395338.jpg@140w_140h)                                                                             ![](https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/29/e4/5a/29e45a50-425d-b971-3db3-6a28cfdbc764/pr_source.jpg/230x0w.jpg)
+<div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center">
+  <img src="https://img.25pp.com/uploadfile/app/icon/20171024/1508857317395338.jpg@140w_140h" alt="">
+  <img
+    src="https://is3-ssl.mzstatic.com/image/thumb/Purple118/v4/29/e4/5a/29e45a50-425d-b971-3db3-6a28cfdbc764/pr_source.jpg/230x0w.jpg"
+    alt="">
+</div>
 
 这个软件非常强大，就像是电脑上的potplayer一样。如果你的电脑共享了磁盘，你可以轻松通过扫描网络，直接播放电脑上的电影，此过程并不需要下载。
 
 你可以在 [appstore](https://itunes.apple.com/cn/app/id1116905928?mt=8) 花30块大洋下载，没有条件的可以移步 [pp助手](https://www.25pp.com/ios/detail_959431/) 。
 
-### 安卓可以使用 **MXplayer** 和 **ES文件浏览器**  
+### 安卓可以使用 MXplayer 和 ES文件浏览器  
 
 - **MXplayer**       	可以播放远程视频
 - **ES文件浏览器 **        可以获取远程文件
@@ -83,7 +88,7 @@
 
    nplayer出现这个错误时，一般是电脑没有开启共享
 
-   ![config](img\config.png)
+   ![config](./img/config.png)
 
 
 
