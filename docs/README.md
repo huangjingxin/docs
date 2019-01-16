@@ -2,7 +2,7 @@
 sidebar: false
 home: true
 heroImage: /hero.png
-actionText: 开始使用 →
+actionText: 网站导航 →
 actionLink: /guide/
 footer: MIT Licensed | Copyright © 2018-present huangjx
 ---

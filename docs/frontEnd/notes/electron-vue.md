@@ -36,3 +36,8 @@ yarn
 yarn run dev
 ```
 
+## 问题
+
+编译不成功，文档太少。终止使用先。
+
+需要有使用 electron 的经验，先用官方 electron 构建项目再回来做。

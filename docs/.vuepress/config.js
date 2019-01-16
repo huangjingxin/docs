@@ -18,24 +18,20 @@ module.exports = {
       {
         text: '前端文档',
         items: [{
-            text: 'Vue',
-            link: '/frontEnd/vue/Vue.md'
+            text: 'JavaScript',
+            link: '/frontend/javascript/'
           },
           {
-            text: 'Tailwind',
-            link: '/frontEnd/tailwind/tailwind.md'
+            text: 'Css',
+            link: '/frontend/css/'
           },
           {
-            text: 'Animate',
-            link: '/frontEnd/animate/animate.md'
-          },
-          {
-            text: 'Npm',
-            link: '/frontEnd/npm/'
+            text: 'Html',
+            link: '/frontend/html/'
           },
           {
             text: '学习笔记',
-            link: '/frontEnd/misc/'
+            link: '/frontend/notes/'
           },
         ]
       },
@@ -51,12 +47,12 @@ module.exports = {
             link: '/notes/vuepress/'
           },
           {
-            text: '常用符号',
-            link: '/notes/symbol/special-symbols.md'
-          },
-          {
             text: 'Git',
             link: '/notes/git/'
+          },
+          {
+            text: '常用符号',
+            link: '/notes/symbol/special-symbols.md'
           },
           {
             text: '其它',
@@ -64,10 +60,9 @@ module.exports = {
           },
         ]
       },
-
       {
         text: '开发环境',
-        link: '/development/Vue.md'
+        link: '/development/Vue-cli.md'
       },
     ]
 
