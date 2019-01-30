@@ -7,7 +7,7 @@ module.exports = {
       href: '/logo.png'
     }],
   ],
-  port: 2005,
+  port: 2400,
   themeConfig: {
     lastUpdated: '最后更新',
     sidebar: 'auto',
