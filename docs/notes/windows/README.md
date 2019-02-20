@@ -24,4 +24,4 @@ sidebar: false
 
   ![right-click-menu](./img/menu/right-click-menu.png)
 
-  这样看是不是简洁很多。
+ 这样看是不是简洁很多。
