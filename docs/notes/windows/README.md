@@ -24,4 +24,4 @@ sidebar: false
 
   ![right-click-menu](./img/menu/right-click-menu.png)
 
-  我的右键菜单长这样，你的呢？
+  这样看是不是简洁很多。
