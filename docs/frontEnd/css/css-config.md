@@ -16,11 +16,15 @@ a {
 }
 
 button {
-  font-family: "Microsoft YaHei"
+  font-family: "Microsoft YaHei";
   background-color: transparent;
   color: inherit;
   outline: none;
   border: none;
+}
+
+input {
+  outline: none;
 }
 ```
 
@@ -34,3 +38,12 @@ text {
 }
 ```
 
+## input缩进与光标颜色
+
+```css
+
+input {
+  text-indent: 12px;
+  caret-color: #43BE87;
+}
+```

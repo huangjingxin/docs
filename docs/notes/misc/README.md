@@ -9,4 +9,5 @@ sidebar: false
 
 - [phpstudy设置](phpstudy.md)
 - [composer安装](composer.md)
+- [webstorm-deployment映射](./webstorm-deployment.md)
 

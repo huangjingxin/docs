@@ -28,7 +28,7 @@ import 'tailwindcss/dist/tailwind.min.css'
 | 不换行   | flex-no-wrap   | flex-wrap: nowrap       |
 | 水平居中 | justify-center | justify-content: center |
 | 垂直居中 | items-center   | align-items: center     |
-| 特例     | self-center    | align-self: center      |
+| 特例     | self-end       | align-self:flex-end     |
 | 自适应   | flex-1         | flex: 1                 |
 
 ### 其它布局
@@ -65,6 +65,7 @@ import 'tailwindcss/dist/tailwind.min.css'
 | 阴影 | shadow | box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10) |
 | 透明 | opacity-50 | opacity: .5 |
 | 外框 | outline-none | outline: 0 |
+| 超出省略 | truncate | overflow: hidden;<br />text-overflow: ellipsis;<br />white-space: nowrap |
 
 ## [颜色](https://www.tailwindcss.cn/docs/colors/)
 
