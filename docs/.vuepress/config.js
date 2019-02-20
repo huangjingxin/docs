@@ -22,11 +22,11 @@ module.exports = {
             link: '/frontend/javascript/'
           },
           {
-            text: 'Css',
+            text: 'CSS',
             link: '/frontend/css/'
           },
           {
-            text: 'Html',
+            text: 'HTML',
             link: '/frontend/html/'
           },
           {
@@ -62,7 +62,7 @@ module.exports = {
       },
       {
         text: '开发环境',
-        link: '/development/Vue-cli.md'
+        link: '/development/vue-cli.md'
       },
     ]
 
