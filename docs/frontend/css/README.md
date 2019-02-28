@@ -10,6 +10,7 @@ sidebar: false
 - [scss使用](./scss.md)
 - [animate动画](./animate.md)
 - [tailwindcss](./tailwind/tailwind.md)
+- [元素居中](./center.md)
 
 
 

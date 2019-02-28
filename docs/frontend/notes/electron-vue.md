@@ -19,11 +19,16 @@ vue init simulatedgreg/electron-vue my-project
 
 一些选项：
 
-Use Sass / Scss? Yes
+Use Sass / Scss?     Yes
+
 Select which Vue plugins to install ？axios, vue-electron, vue-router, vuex, vuex-electron (默认全选，下一步)
+
 Use linting with ESLint? 	No
+
 Set up unit testing with Karma + Mocha?	 No
+
 Set up end-to-end testing with Spectron + Mocha?	 No
+
 What build tool would you like to use? 	builder
 
 ## 运行

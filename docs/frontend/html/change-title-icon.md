@@ -9,7 +9,7 @@
 如果是 Vue ，还需在 build/webpack.dev.conf.js 目录文件下设置
 
 ```javascript
-# 在 new HtmlWebpackPlugin({}) 加入,跟上面路径一致
+// 在 new HtmlWebpackPlugin({}) 加入,跟上面路径一致
 favicon:'path/to/xxx.jpg',
 ```
 

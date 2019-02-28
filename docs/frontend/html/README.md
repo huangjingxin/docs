@@ -8,5 +8,7 @@ sidebar: false
 
 - [修改网页标签栏图标](./change-title-icon.md)
 
+- [文内添加锚点](./anchor.md)
+
   
 
