@@ -83,7 +83,7 @@ x; // 2500
 
 
 
-:::waring 参考链接
+:::warning 参考链接
 
 https://www.liaoxuefeng.com/
 

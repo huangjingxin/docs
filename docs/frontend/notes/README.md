@@ -18,8 +18,14 @@ sidebar: false
 
 列举 npm 的常用操作，增删改查。
 
-- [vue传参](./vue-$emit.md)
+- [vue传参](./vue-emit.md)
 
 列举几种 $emit 不生效的情况，以后特别注意。
 
-- 
+- [jquery](./jquery.md)
+
+可以不用，但是必须懂。
+
+- [面试必做题目](./examination-question.md)
+
+我在面试中做过的题目，归纳总结。

@@ -7,7 +7,13 @@
 ### 准备
 
 1. [操作系统](https://msdn.itellyou.cn/)
+
+   推荐选择 **Windows 10 Enterprise 2016 LTSB**
+
+   原因：2019 LTSB不稳定，其它版本更容易出现问题。
+
 2. [PE工具箱](http://www.wepe.com.cn/download.html)
+
 3. 准备一个U盘（大于8G）
 
 ### 操作

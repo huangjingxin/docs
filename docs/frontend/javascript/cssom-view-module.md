@@ -13,7 +13,7 @@
 | pageXOffset | 页面可滚动区域的高度       | pageYOffset |      |
 | screenX     | 浏览器窗口在显示器中的位置 | screenY     |      |
 
-尝试：`window.innerWidth`
+控制台查看：`window.innerWidth`
 
 ## Screen视图属性
 
@@ -25,7 +25,7 @@
 | width      | 显示器宽度       | height      |                    |
 | colorDepth | 显示器的颜色深度 | pixelDepth  | 与 colorDepth 相同 |
 
-尝试：`screen.availWidth`
+控制台查看：`screen.availWidth`
 
 ## 文档、元素视图
 
@@ -38,7 +38,7 @@
 | getBoundingClientRect() | 坐标偏移集合（对象）           |
 | scrollIntoView()        | 让元素滚动到可视区域           |
 
-尝试：`element.availWidth.getBoundingClientRect()`
+控制台查看：`element.availWidth.getBoundingClientRect()`
 
 ## 元素视图属性
 
@@ -54,7 +54,7 @@
 | scrollTop    |      | scrollLeft   |      |
 | offsetParent |      |              |      |
 
-尝试：`element.clientWidth`
+控制台查看：`element.clientWidth`
 
 ## 鼠标位置
 
@@ -66,7 +66,7 @@
 | screenX |      | screenY |      |
 | x       |      | y       |      |
 
-尝试：`event.clientX`
+控制台查看：`event.clientX`
 
 
 
