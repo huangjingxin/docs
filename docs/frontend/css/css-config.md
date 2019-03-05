@@ -47,3 +47,12 @@ input {
   caret-color: #43BE87;
 }
 ```
+
+## border-box
+
+```js
+div {
+    box-sizing: border-box;
+}
+```
+
