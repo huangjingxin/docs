@@ -87,7 +87,7 @@ npm i -g vue-cli
 npm i -g live-server
 npm i -g hotel
 npm i -g json-server
-npm i -g hexo-cli
 npm i -g vuepress
+npm i -g dlf
 ```
 

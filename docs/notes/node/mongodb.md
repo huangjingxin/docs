@@ -8,7 +8,7 @@
 
 选择版本：mongodb server (currenr release)
 
-配置环境变量：path 中添加 bin 路径
+配置环境变量：path 中添加 bin 的路径
 
 ## 命令
 

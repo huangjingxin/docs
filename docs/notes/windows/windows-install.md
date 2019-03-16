@@ -47,7 +47,7 @@
 
 初始用户权限太低，更换为超级用户，删除初始用户
 
-最好给超级用户设置一个**密码**，以便后面的远程控制
+最好给超级用户设置一个**密码**，以便远程控制
 
 ### 取消开机密码
 
@@ -62,8 +62,9 @@ Ctrl+R 然后输入 `netplwiz`，去掉 √
 - [禁用系统自动更新](https://jingyan.baidu.com/article/9faa7231e7b78b473c28cbb6.html)（windows update）
 - 修改通知和底边栏图标
 - 在**文件夹选项**中调出文件名后缀
-- [任务栏的图标后面**显示文字**](https://jingyan.baidu.com/article/67508eb403b0b29cca1ce4bd.html)
-- [禁用自带输入法](https://jingyan.baidu.com/article/e4511cf39d7c382b855eaf62.html)
+- [任务栏的图标后面**显示文字**](https://jingyan.baidu.com/article/67508eb403b0b29cca1ce4bd.html) 
+- [禁用自带输入法](https://jingyan.baidu.com/article/e4511cf39d7c382b855eaf62.html) 
+- [去掉安装软件的弹窗](https://jingyan.baidu.com/article/17bd8e52258a8985ab2bb883.html) 
 
 ### [安装软件](https://pan.baidu.com/s/1hAsz-9yxeE9NEFE2TdKA6w)
 
@@ -89,6 +90,8 @@ Listary
 
 WGestures
 
+桌面日历
+
 adobe Reader
 
 ACDSee
@@ -97,7 +100,7 @@ ACDSee
 
 百度网盘
 
-网易云音乐
+网易云音乐 / 酷狗
 
 网易邮箱大师
 
@@ -109,8 +112,6 @@ office
 
 Teamviewer
 
-护眼啦
-
 PP助手
 
 #### 编程必备
@@ -120,8 +121,6 @@ PP助手
  Typora
 
  VScode
-
- Notepad++
 
  Webstorm [右键菜单改成 open with webstorm](./windows-menu-change.md)
 
