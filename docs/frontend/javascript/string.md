@@ -39,7 +39,8 @@ str1.substring(0, 3) //hua
 
 ```js
 // 拆分字符串
-str1.split('') //["h", "u", "a", "n", "g"]
+'huang'.split('') //["h", "u", "a", "n", "g"]
+'logo.jpg'.split('.')  //["logo", "jpg"]
 
 // split的其它参数
 let time = "2019-2-27";

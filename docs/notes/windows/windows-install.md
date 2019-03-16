@@ -58,11 +58,16 @@ Ctrl+R 然后输入 `netplwiz`，去掉 √
 - 桌面『此电脑』图标
 - 调整熄屏、睡眠、休眠时间
 - 关闭防火墙
+- [永久禁用Windows Defender](https://jingyan.baidu.com/article/c1a3101e639c6ade656deb17.html)
 - [禁用系统自动更新](https://jingyan.baidu.com/article/9faa7231e7b78b473c28cbb6.html)（windows update）
 - 修改通知和底边栏图标
 - 在**文件夹选项**中调出文件名后缀
+- [任务栏的图标后面**显示文字**](https://jingyan.baidu.com/article/67508eb403b0b29cca1ce4bd.html)
+- [禁用自带输入法](https://jingyan.baidu.com/article/e4511cf39d7c382b855eaf62.html)
 
 ### [安装软件](https://pan.baidu.com/s/1hAsz-9yxeE9NEFE2TdKA6w)
+
+> 推荐下载软件的地址： https://pc.qq.com
 
 #### 必备软件
 
@@ -118,7 +123,7 @@ PP助手
 
  Notepad++
 
- Webstorm或Phpstorm
+ Webstorm [右键菜单改成 open with webstorm](./windows-menu-change.md)
 
  微信开发者工具
 

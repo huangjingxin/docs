@@ -18,6 +18,10 @@ sidebar: false
 
 列举 npm 的常用操作，增删改查。
 
+- [yarn](./yarn.md)
+
+列举 yarn的常用操作，增删改查。
+
 - [vue传参](./vue-emit.md)
 
 列举几种 $emit 不生效的情况，以后特别注意。
@@ -33,3 +37,27 @@ sidebar: false
 - [hotel](./hotel.md)
 
 npm 端口管理插件，列举一些常用的命令。
+
+- [服务器状态码](./http-status-code.md)
+
+200，404等状态码说明。
+
+- [异步函数](./async.md)
+
+常见的异步关键词，promise、ajax、async、await。
+
+- [正则表达式](./regexp.md)
+
+常见的正则字符及其含义。
+
+- [浏览器存储](./webstorage.md)
+
+关键词：cookie,sessionStorage,localStorage
+
+- [vue-router](./vue-router.md)
+
+路由，介绍一些常见的关键词
+
+- [vue进阶](./vue-knowledge-update.md)
+
+关键词：keep-alive,transiton

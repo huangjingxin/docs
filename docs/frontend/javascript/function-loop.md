@@ -33,7 +33,7 @@ for (var key in obj) {
 
 **缺点**：兼容性差
 
-```
+```js
 for (var key in obj) {
     if (obj.hasOwnProperty(key)) {
         console.log(key); // 'Jack', 20, 'Beijing'
