@@ -47,16 +47,22 @@ nat 共享主机，设置  `DEVICE="eth0"`，`ONBOOT="yes"`
 ## 版本控制
 
 ```bash
-yum –y install git
+yum install –y git
+```
+
+## node
+
+```bash
+yum install -y nodejs
 ```
 
 ## 宝塔面板
 
 ```bath
-// 方便管理 linux
+// 图形化界面管理 linux
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 
-
+// 使用推荐的安装，基本的服务器架子搭起来
 ```
 
 

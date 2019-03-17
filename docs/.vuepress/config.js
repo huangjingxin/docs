@@ -8,6 +8,7 @@ module.exports = {
     }],
   ],
   port: 2400,
+  dest:'docs-public',
   themeConfig: {
     lastUpdated: '最后更新',
     sidebar: 'auto',
