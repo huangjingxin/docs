@@ -4,12 +4,12 @@
 
 ## Vue全局开发环境搭建
 
-### 安装新环境
+### 安装环境
 
 1. node
-2. yarn
+2. git
 3. vue-cli
-4. hotel
+4. webpack
 5. json-server
 6. mock
 
@@ -19,32 +19,40 @@
 vue init webpack <name>
 ```
 
-- vue-router(Y)
-- EsLint (N)
-- unit(N)
-- Nightwatch(N)
-- Yes,I choose yarn
-
 ### 项目试运行
 
 ```bash
-# 添加服务器
-hotel add "npm run dev"
-
-# 删除服务器
-hotel rm
+npm run dev
 ```
 
 ## Vue 项目开发环境搭建
 
+## vuex
+
+```bash
+# 安装 vuex
+npm install vuex --save
+yarn add vuex
+
+# 加入 main.js
+import Vuex from 'vuex'
+Vue.use(Vuex)
+
+# 兼容 IE
+npm install es6-promise --save
+yarn add es6-promise
+```
+
 ### tailwindcss
 
 ```bash
-# yarn 安装 tailwindcss
+# 安装 tailwindcss
+npm install tailwindcss --save-dev
 yarn add tailwindcss --dev
 
 # 配置文件
 .\node_modules\.bin\tailwind init tailwind.js
+.\node_modules\.bin\tailwind init tailwind.js --no-comments # 无注释
 
 # 加入 .postcssrc.js 
 const tailwindcss = require('./tailwind');
@@ -54,42 +62,44 @@ const tailwindcss = require('./tailwind');
 import 'tailwindcss/dist/tailwind.min.css'
 ```
 
-### axios、vue-axios 、qs
+### axios
 
 ```bash
-# yarn 安装 axios
-yarn add --save axios vue-axios qs
-
-# 把配置文件 http/http.js 放在 src 中
-# 从别人封装好的项目里拷贝省事
-
-# 加入 main.js
-import {get,post} from './http/http'
-Vue.prototype.$get = get;
-Vue.prototype.$post = post;
+# 安装 axios
+npm install axios
 ```
 
-### vuex
+### scss/sass
 
 ```bash
-# yarn 安装 vuex
-yarn add vuex
+# 安装 sass （sass-loader依赖于node-sass）
+npm install sass-loader node-sass --save-dev
 
-# 加入 main.js
-import Vuex from 'vuex'
-Vue.use(Vuex)
-```
+# build 文件夹下的 webpack.base.conf.js的 rules
+{
+    test: /\.scss$/,
+    loaders: ["style", "css", "sass"]
+},
 
-### vue-awesome
+# 识别标识
+<style lang="scss" scoped>
 
-```bash
-# yarn 安装 vue-awesome
-yarn add vue-awesome
+# 安装 sass-resources-loader （让指定 scss 变成全局）
+npm install sass-resources-loader --save-dev
 
-# 加入 main.js
-import 'vue-awesome/icons'
-import Icon from 'vue-awesome/components/Icon'
-Vue.component('v-icon', Icon);
+# 修改 build 中的 utils.js
+scss: generateLoaders('sass')
+
+修改成:
+
+scss: generateLoaders('sass').concat(
+  {
+    loader: 'sass-resources-loader',
+    options: {
+      resources: path.resolve(__dirname, '../src/assets/global.scss')
+    }
+  }
+)
 ```
 
 ## JSON 数据环境

@@ -21,7 +21,6 @@ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 
 # 查看是否改为 https://gems.ruby-china.com/
 gem sources -l
-https://gems.ruby-china.com/
 ```
 
 ## 安装sass

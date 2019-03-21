@@ -18,11 +18,13 @@ var obj = {
     age: 20,
     city: 'Beijing'
 };
-for (var key in obj) {
+
+for (let key in obj) {
     if (obj.hasOwnProperty(key)) {
-        console.log(key); // 'name', 'age', 'city'
+        console.log(key); 
     }
 }
+// 'name', 'age', 'city'
 ```
 
 `for ... in`对`Array`的循环得到的是`String`而不是`Number`。
@@ -34,11 +36,12 @@ for (var key in obj) {
 **缺点**：兼容性差
 
 ```js
-for (var key in obj) {
-    if (obj.hasOwnProperty(key)) {
-        console.log(key); // 'Jack', 20, 'Beijing'
-    }
+let str='huangjx'
+
+for (let i of str) {
+    console.log(i); 
 }
+// 'h','u','a','n','g','j','x'
 ```
 
 ## forEach
@@ -48,17 +51,20 @@ for (var key in obj) {
 **缺点**：不能用 `break` 或 `return false` 中断。
 
 ```js
-var arr = [3, 5, 7];
+var arr = [3, 5, 7, 9];
 
-for (let value of arr) {
-  console.log(value);
-  if (value == 5) {
-    break;
-  }
-}
-// 结果是：
-// 3
-// 5
+arr.forEach(i=>{
+    console.log(i);
+    if(i===7) break
+})
+
+// Uncaught SyntaxError: Illegal break statement
+
+arr.forEach(i=>{
+    if(i===7) return 'break'
+    console.log(i);
+})
+// 3,5,9
 ```
 
 ## while
