@@ -3,8 +3,8 @@
 一个实用的 CSS 动画库，使用非常简单。
 
 ```bash
-# yarn 安装 animate.css
-yarn add animate.css
+# 安装 animate.css
+npm install animate.css --save
 
 # 加入 main.js
 import animated from 'animate.css'
@@ -26,7 +26,7 @@ Vue.use(animated);
 ## 类别
 
 ```
-fade: {
+    fade: {
         title: '淡入淡出',
         fadeIn: '淡入',
         fadeInDown: '向下淡入',
@@ -46,8 +46,8 @@ fade: {
         fadeOutRightBig: '向右快速淡出',
         fadeOutUp: '向上淡出',
         fadeOutUpBig: '向上快速淡出'
-      },
-      bounce: {
+    },
+    bounce: {
         title: '弹跳类',
         bounceIn: '弹跳进入',
         bounceInDown: '向下弹跳进入',
@@ -59,8 +59,8 @@ fade: {
         bounceOutLeft: '向左弹跳退出',
         bounceOutRight: '向右弹跳退出',
         bounceOutUp: '向上弹跳退出'
-      },
-      zoom: {
+    },
+    zoom: {
         title: '缩放类',
         zoomIn: '放大进入',
         zoomInDown: '向下放大进入',
@@ -72,8 +72,8 @@ fade: {
         zoomOutLeft: '向左缩小退出',
         zoomOutRight: '向右缩小退出',
         zoomOutUp: '向上缩小退出'
-      },
-      rotate: {
+    },
+    rotate: {
         title: '旋转类',
         rotateIn: '顺时针旋转进入',
         rotateInDownLeft: '从左往下旋入',
@@ -85,15 +85,15 @@ fade: {
         rotateOutDownRight: '向右下旋出',
         rotateOutUpLeft: '向左上旋出',
         rotateOutUpRight: '向右上旋出'
-      },
-      flip: {
+    },
+    flip: {
         title: '翻转类',
         flipInX: '水平翻转进入',
         flipInY: '垂直翻转进入',
         flipOutX: '水平翻转退出',
         flipOutY: '垂直翻转退出'
-      },
-      strong: {
+    },
+    strong: {
         title: '强调类',
         bounce: '弹跳',
         flash: '闪烁',
@@ -104,12 +104,12 @@ fade: {
         tada: '缩放摆动',
         wobble: '左右强晃动',
         jello: '拉伸抖动'
-      }
+    }
 ```
 
 ::: warning 注意
 
-此文抄袭于 https://www.cnblogs.com/wangyawei/p/8904207.html
+此文完全借鉴 https://www.cnblogs.com/wangyawei/p/8904207.html
 
 :::
 

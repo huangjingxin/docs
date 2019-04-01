@@ -44,6 +44,18 @@ nat 共享主机，设置  `DEVICE="eth0"`，`ONBOOT="yes"`
 
 :::
 
+## yum源
+
+```shell
+mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup
+ 
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+ 
+yum clean all
+ 
+yum makecache
+```
+
 ## 版本控制
 
 ```bash
@@ -58,11 +70,11 @@ yum install -y nodejs
 
 ## 宝塔面板
 
-```bath
-// 图形化界面管理 linux
+```shell
+# 图形化界面管理 linux
 yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_6.0.sh && sh install.sh
 
-// 使用推荐的安装，基本的服务器架子搭起来
+# 使用推荐的安装，基本的服务器架子搭起来
 ```
 
 

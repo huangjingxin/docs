@@ -64,10 +64,10 @@ ajax('http://localhost:3000/user', 'post', data).then(data => console.log(data))
 ### fetch
 
 ```js
-// get
-fetch('https://api.github.com/repos/vuejs/vue').then(res=>{
-    return res.json()
-});
+// get (github vue detail info,like star,watch and fork)
+fetch('https://api.github.com/repos/vuejs/vue')
+    .then(res=>res.json())
+	.then(data=>console.log(data));
 
 // post
 let data = {
@@ -78,15 +78,62 @@ let data = {
 
 fetch('http://localhost:3000/user', {
     method: 'POST', // or 'PUT'
-    body: JSON.stringify(data), // data can be `string`
+    body: JSON.stringify(data), // data only can be `string`
     headers: new Headers({
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json'  //set json ,else fail
     })
 })
 .then(res => res.json())
-.catch(error => console.error('Error:', error))
-.then(response => console.log('Success:', response));
+.then(response => console.log('Success:', response))
+.catch(error => console.error('Error:', error));
 ```
 
 异步请求是通过新的线程发出请求，然后把结果交给 js 线程处理，所以不会造成阻塞。
 
+## 简单封装
+
+```js
+function get(url) {
+    return new Promise((resolve, reject) => {
+        fetch(url).then(res => resolve(res.json())).catch(err => reject(err))
+    })
+}
+
+function post(url, data) {
+    if (data && typeof data !== 'string') {
+        data = JSON.stringify(data);
+    }
+    return new Promise((resolve, reject) => {
+        fetch(url, {
+                method: 'POST', // or 'PUT'
+                body: data, // data can be `string` or {object}!
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            })
+            .then(res => res.json())
+            .then(response => resolve(response))
+            .catch(error => reject(error));
+    })
+}
+
+function patch(url, data) {
+    if (data && typeof data !== 'string') {
+        data = JSON.stringify(data);
+    }
+    return new Promise((resolve, reject) => {
+        fetch(url, {
+                method: 'PATCH', // or 'PUT'
+                body: data, // data can be `string` or {object}!
+                headers: new Headers({
+                    'Content-Type': 'application/json'
+                })
+            })
+            .then(res => res.json())
+            .then(response => resolve(response))
+            .catch(error => reject(error));
+    })
+}
+```
+
+上面基本实现了增改查，删除就不讲了。数据入库了，哪有删除的道理，企业就是要耍流氓。
