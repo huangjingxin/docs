@@ -6,7 +6,7 @@
 
 ```bash
 # npm 安装 vuepress
-npm i -g vuepress
+npm install -g vuepress
 
 # 新建一个 markdown 文件
 echo '# Hello VuePress!' > README.md
@@ -34,24 +34,18 @@ vuepress build docs
 ### 自定义容器
 
 ```text
-::: tip
+::: tip 技巧
 This is a tip
 :::
 
-::: warning
+::: warning 注意
 This is a warning
 :::
 
-::: danger
+::: danger 小心
 This is a dangerous warning
 :::
 ```
-
-效果：
-
-::: tip 技巧
-标签后面可自定义自己的文字
-:::
 
 ### 目录
 
@@ -72,10 +66,36 @@ This is a dangerous warning
 new Vue({
     data:{
         name:'huangjingxin',
-        age:23,
+        age:24,
     }
 })
 ```
+
+### 导入代码段
+
+```md
+# 支持 html css js...
+<<< @/filepath
+```
+
+<<< @/docs/notes/vuepress/test.html{2}
+
+
+## YAML front matter
+
+```yaml
+---
+navbar: false
+sidebar: false
+sidebarDepth: 2
+prev: ./some-other-page
+next: false
+---
+```
+
+
+
+
 
 ## 建站问题
 
@@ -95,4 +115,4 @@ vuepress/README.md
 
 虽然相对路径不使用`./`开头有时候也能用，但请不要抱侥幸心理。
 
-`\`是 windows 的文件路径，用在 http 上没有效果，引入时注意改回来。
+`\`是 windows 的文件路径，用在 http 上没有效果，引入需要注意。

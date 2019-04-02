@@ -1,9 +1,9 @@
 ---
 sidebar: false
 home: true
-heroImage: /hero.png
+heroImage: /logo.svg
 actionText: 网站导航 →
-actionLink: /guide/
+actionLink: /guide.md
 footer: MIT Licensed | Copyright © 2018-present huangjx
 ---
 
@@ -15,19 +15,17 @@ footer: MIT Licensed | Copyright © 2018-present huangjx
 hello,world!
 ```
 
-Vue是由尤雨溪开发的前端框架，不仅很多中国人使用，还有很多外国人使用。
+Vue是由尤雨溪开发的前端框架，易学易用。
 
-非常喜欢它操作变量的方式。
-
-```js{4}
-<p>{{name}}</p>
+```js{3}
 new Vue({
     data:{
         name:'huangjingxin',
-        age:23,
+        age:24,
+        mail:'chinahuangjx@gmail.com'
     },
 })
 ```
 
-这是Vuepress生成的静态网页，有着华丽的外表和极致的书写体验。
+
 
