@@ -4,7 +4,7 @@
 
 ## 激活
 
-http://idea.lanyus.com
+~~http://idea.lanyus.com~~ 已失效
 
 ## 改字体
 

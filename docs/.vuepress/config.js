@@ -1,6 +1,6 @@
 module.exports = {
   title: '黄敬鑫',
-  description: '你的奋斗，终将伟大',
+  description: '学习历程',
   serviceWorker: true,
   head: [
     ['link', {
@@ -68,7 +68,7 @@ module.exports = {
             link: '/notes/symbol/special-symbols.md'
           },
           {
-            text: '其它',
+            text: '学习笔记',
             link: '/notes/misc/'
           },
         ]
@@ -79,7 +79,7 @@ module.exports = {
       },
     ],
     // edit for github
-    repo: 'https://github.com/huangjingxin/docs',
+    repo: 'https://github.com/huangjingxin',
     repoLabel: 'Github',
     docsRepo: 'huangjingxin/docs',
     docsDir: 'docs',

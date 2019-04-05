@@ -2,12 +2,12 @@
 sidebar: false
 ---
 
-# 其它
-> 此文件夹主要存放一些零碎的东西。
+# 学习笔记
 
-## 关于php
+> 此文件夹主要存放一些零碎的东西。
 
 - [phpstudy设置](phpstudy.md)
 - [composer安装](composer.md)
 - [webstorm-deployment映射](./webstorm-deployment.md)
+- [webstorm 常规设置](./webstorm-config.md)
 

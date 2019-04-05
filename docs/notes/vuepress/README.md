@@ -94,7 +94,7 @@ next: false
 ---
 ```
 
-## 建站问题
+## 注意事项
 
 ### 文件名不能包含中文
 
@@ -110,6 +110,23 @@ vuepress/README.md
 
 ### 路径以`./`开头，不要使用`\`
 
-虽然相对路径不使用`./`开头有时候也能用，但不要抱侥幸心理。
-
 `\`是 windows 的文件路径，用在 http 上没有效果，引入需要注意。
+
+```bash
+# 错误
+D:\vuepress\image\logo.jpg
+
+# 正确
+./vuepress/image/logo.jpg
+```
+
+
+
+
+
+
+
+
+
+
+
