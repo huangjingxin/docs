@@ -67,6 +67,10 @@ import 'tailwindcss/dist/tailwind.min.css'
 ```bash
 # 安装 axios
 npm install axios
+
+# 在原型上添加方法，使得全局共享
+Vue.prototype.$get = get;
+Vue.prototype.$post = post;
 ```
 
 ### scss/sass

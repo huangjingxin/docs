@@ -64,7 +64,7 @@ kill  杀进程
 - 4.仅更新指定的软件命令：yum update <package_name>
 - 5.列出所有可安裝的软件清单命令：yum list
 - 6.删除软件包命令：yum remove <package_name>
-- 7.查找软件包 命令：yum search <keyword>
+- 7.查找软件包 命令：yum search \<keyword\>
 - 8.清除缓存命令:
   - yum clean packages: 清除缓存目录下的软件包
   - yum clean headers: 清除缓存目录下的 headers

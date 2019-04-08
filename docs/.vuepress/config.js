@@ -26,7 +26,7 @@ module.exports = {
         link: '/'
       },
       {
-        text: '前端文档',
+        text: '前端',
         items: [{
             text: 'JavaScript',
             link: '/frontend/javascript/'

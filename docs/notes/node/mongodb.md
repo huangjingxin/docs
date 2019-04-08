@@ -6,7 +6,7 @@
 
 下载地址：https://www.mongodb.com
 
-选择版本：mongodb server (currenr release)
+选择版本：mongodb server (current release)
 
 配置环境变量：path 中添加 bin 的路径
 

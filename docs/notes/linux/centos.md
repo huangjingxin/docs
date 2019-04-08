@@ -36,13 +36,13 @@ ifdown eth0 //关闭网卡eth0
 
 ifconfig eth0 192.168.5.111 //重新配置网卡 eth0 的 ip
 
-::: warning  网络配置
+**setup设置IP地址**
 
-文件地址：/etc/sysconfig/network-script/
+setup
 
-nat 共享主机，设置  `DEVICE="eth0"`，`ONBOOT="yes"`
+vi /etc/sysconfig/network-script/ifcfg-eth0
 
-:::
+ONBOOT="yes"
 
 ## yum源
 

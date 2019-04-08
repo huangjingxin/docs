@@ -13,6 +13,10 @@ sidebar: false
 - [vue进阶](./vue-knowledge-update.md) --- 关键词：keep-alive,transiton。
 - [vue-router](./vue-router.md) --- 路由，介绍一些常见的关键词。
 
+## 插件
+
+- [hotel](./hotel.md) --- npm 端口管理插件，列举一些常用的命令。
+
 ## 杂项
 
 - [修改默认端口号](./change-port.md) --- 有时候为了调试方便，需要在内网用手机访问。
@@ -24,8 +28,6 @@ sidebar: false
 - [jquery](./jquery.md) --- 可以不用，但是必须懂。
 
 - [面试必做题目](./examination-question.md) --- 我在面试中做过的题目，归纳总结。
-
-- [hotel](./hotel.md) --- npm 端口管理插件，列举一些常用的命令。
 
 - [服务器状态码](./http-status-code.md) --- 200，404等状态码说明。
 
