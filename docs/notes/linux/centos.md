@@ -26,23 +26,21 @@ ifup eth0   //启动网卡eth0
 
 ifdown eth0 //关闭网卡eth0
 
-/etc/network/interfaces  //网络配置文件
+setup(图形界面操作)
 
-/etc/init.d/networking  //网络服务位置
+修改配置文件
 
-/etc/init.d/networking restart  //重启网络
+```bash
+# 三个文件
+vi /etc/sysconfig/network-scripts/ifcfg-ens33
 
-/etc/resolv.conf //DNS配置文件
+vi /etc/sysconfig/network
 
-ifconfig eth0 192.168.5.111 //重新配置网卡 eth0 的 ip
+vi /etc/resolv.conf
 
-**setup设置IP地址**
-
-setup
-
-vi /etc/sysconfig/network-script/ifcfg-eth0
-
-ONBOOT="yes"
+# 重启网络服务
+systemctl restart network.service
+```
 
 ## yum源
 
