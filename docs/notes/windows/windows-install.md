@@ -65,6 +65,7 @@ Ctrl+R 然后输入 `netplwiz`，去掉 √
 - [任务栏的图标后面**显示文字**](https://jingyan.baidu.com/article/67508eb403b0b29cca1ce4bd.html) 
 - [禁用自带输入法](https://jingyan.baidu.com/article/e4511cf39d7c382b855eaf62.html) 
 - [去掉安装软件的弹窗](https://jingyan.baidu.com/article/17bd8e52258a8985ab2bb883.html) 
+- [关闭windows安全警报](https://jingyan.baidu.com/article/4ae03de3f2d0e13eff9e6bf6.html) 
 
 ### [安装软件](https://pan.baidu.com/s/1hAsz-9yxeE9NEFE2TdKA6w)
 
