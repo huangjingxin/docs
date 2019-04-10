@@ -1,7 +1,7 @@
 ---
 sidebar: false
 home: true
-heroImage: /logo.svg
+heroImage: /hero.svg
 actionText: 网站导航 →
 actionLink: /guide.md
 footer: MIT Licensed | Copyright © 2018-present huangjx
