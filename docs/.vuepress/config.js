@@ -17,7 +17,7 @@ module.exports = {
     searchMaxSuggestions: 8,
     serviceWorker: {
       updatePopup: {
-        message: "有新的内容可用",
+        message: "发现新内容可用",
         buttonText: "刷新"
       }
     },
@@ -79,7 +79,7 @@ module.exports = {
       },
     ],
     // edit for github
-    repo: 'https://github.com/huangjingxin',
+    // repo: 'https://github.com/huangjingxin',
     repoLabel: 'Github',
     docsRepo: 'huangjingxin/docs',
     docsDir: 'docs',
