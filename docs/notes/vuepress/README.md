@@ -120,7 +120,9 @@ D:\vuepress\image\logo.jpg
 ./vuepress/image/logo.jpg
 ```
 
+### 文内不要有裸露的标签
 
+md文件最终解析为html，裸露的标签会影响解析。
 
 
 
