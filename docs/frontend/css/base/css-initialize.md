@@ -50,7 +50,7 @@ input {
 
 ## border-box
 
-```js
+```css
 div {
     box-sizing: border-box;
 }
@@ -58,7 +58,7 @@ div {
 
 ## 平滑滚动
 
-```
+```css
 html, body { scroll-behavior:smooth; }
 ```
 

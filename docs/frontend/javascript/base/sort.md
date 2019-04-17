@@ -44,7 +44,7 @@ zh.sort()	//["湖北", "湖南", "马云", "马化腾"]
 
 中文默认是按照 `UTF-8` 编码进行排序的，可以用控制台把对应编码打印出来看一下：
 
-![zh-sort](./img/sort/zh-sort.png)
+![zh-sort](./image/sort/zh-sort.png)
 
 
 
