@@ -7,7 +7,7 @@
 ```html
 <a href="#here">你在哪里</a>
 
-<a name="brohere在这里</a>
+<a name="here">在这里</a>
 ```
 
 ## 其它标签的id实现
@@ -15,7 +15,7 @@
 ```html
 <a href="#here">你在哪里</a>
 
-<div id="brohere在这里</div>
+<div id="here">在这里</div>
 ```
 
 ## javascript实现

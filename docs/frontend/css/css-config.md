@@ -56,3 +56,9 @@ div {
 }
 ```
 
+## 平滑滚动
+
+```
+html, body { scroll-behavior:smooth; }
+```
+
