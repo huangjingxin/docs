@@ -6,9 +6,9 @@ Tools --> deployment --> configuration --> 点击加号  -->选择 ftp
 
 然后设置如下：
 
-![1550651813630](./img/webstorm-deployment/config1.png)
+![1550651813630](./image/config1.png)
 
-![1550651848693](./img/webstorm-deployment/config2.png)
+![1550651848693](./image/config2.png)
 
 ::: warning 注意
 

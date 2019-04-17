@@ -12,7 +12,7 @@ hotel start
 hotel stop
 
 # 添加
-hotel add 'npm start'
+hotel add 'npm  start'
 hotel add 'live-server' --port 3000
 
 # 删除

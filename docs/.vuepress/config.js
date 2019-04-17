@@ -1,6 +1,6 @@
 module.exports = {
   title: '黄敬鑫',
-  description: '学习历程',
+  description: '个人资料',
   serviceWorker: true,
   head: [
     ['link', {
@@ -40,8 +40,8 @@ module.exports = {
             link: '/frontend/html/'
           },
           {
-            text: '学习笔记',
-            link: '/frontend/notes/'
+            text: 'Note',
+            link: '/frontend/note/'
           },
         ]
       },
@@ -56,20 +56,16 @@ module.exports = {
             link: '/notes/linux/'
           },
           {
-            text: 'Vuepress',
-            link: '/notes/vuepress/'
+            text: 'Server',
+            link: '/notes/server/'
           },
           {
-            text: 'Git',
-            link: '/notes/git/'
+            text: 'Software',
+            link: '/notes/software/'
           },
           {
-            text: '常用符号',
-            link: '/notes/symbol/special-symbols.md'
-          },
-          {
-            text: '学习笔记',
-            link: '/notes/misc/'
+            text: 'Note',
+            link: '/notes/note/'
           },
         ]
       },
