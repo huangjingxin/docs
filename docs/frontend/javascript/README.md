@@ -15,7 +15,7 @@
 
 ## es6
 
-- [for...in/for...of](./es6/function-loop.md) --- 新的内容可以让代码更简洁
+- [for...in/for...of](./es6/function-loop.md) --- 让代码更简洁
 - [export&import](./es6/export&import.md) --- 模块化编程
 - [异步函数](./es6/async.md) --- 常见的异步关键词，promise、ajax、async、await。
 
