@@ -2,7 +2,7 @@
 
 > 码东西的时候容易忘词，所以有了这样一个网站。- 这个网站能够帮助我快速查找。
 
-[![docs](./about/screenshot.png)](https://docs.hjx24.com)
+[![screenshot](./about/screenshot.png)](https://docs.hjx24.com)
 
 ## 前端
 
