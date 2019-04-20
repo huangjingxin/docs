@@ -55,9 +55,10 @@ Ctrl+R 然后输入 `netplwiz`，去掉 √
 
 ### 系统设置
 
-- 桌面『此电脑』图标
+- 桌面『此电脑』图标（个性化 -+ 更改桌面图标）
+- [开启休眠按钮](https://jingyan.baidu.com/article/54b6b9c0fc2d0b2d593b4764.html)
 - 调整熄屏、睡眠、休眠时间
-- 关闭防火墙
+- [关闭防火墙](https://jingyan.baidu.com/article/b87fe19e870be4521835682d.html)
 - [永久禁用Windows Defender](https://jingyan.baidu.com/article/c1a3101e639c6ade656deb17.html)
 - [禁用系统自动更新](https://jingyan.baidu.com/article/9faa7231e7b78b473c28cbb6.html)（windows update）
 - 修改通知和底边栏图标

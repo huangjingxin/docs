@@ -31,7 +31,7 @@ vuepress build docs
 
 ## Markdown拓展
 
-### 自定义容器
+### 技巧-注意-小心
 
 ```text
 ::: tip 技巧
@@ -75,10 +75,10 @@ new Vue({
 
 ```md
 # 支持 html css js 等，也支持代码高亮 
-<<< @/filepath{2}
+<<< @/filePath{2}
 ```
 
-<<< @/docs/notes/vuepress/test.html{2}
+<<< @/docs/notes/server/vuepress/test.html{2}
 
 
 ## YAML front matter
