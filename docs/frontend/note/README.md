@@ -35,4 +35,5 @@
 ## 杂项
 
 - [修改默认端口号](./change-port.md) --- 有时候为了调试方便，需要在内网用手机访问。
+- [mongodb](./mongodb.md) --- NoSQL数据库，常用来代替 MySQL
 

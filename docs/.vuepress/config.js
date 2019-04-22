@@ -40,6 +40,10 @@ module.exports = {
             link: '/frontend/html/'
           },
           {
+            text: 'Node',
+            link: '/frontend/node/'
+          },
+          {
             text: 'Note',
             link: '/frontend/note/'
           },

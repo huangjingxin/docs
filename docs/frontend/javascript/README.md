@@ -11,8 +11,9 @@
 - [数组的操作](./base/operate-array.md) --- 基本操作
 - [数组排序](./base/sort.md) --- 只有数组才涉及到排序
 - [数据验证](./base/data-verification.md) --- 数据类型判断
-- [判断对象是否具有某个属性](./base/name-in-object.md) --- 对象是否有这个key
+- [判断对象是否具有某个属性](./base/name-in-object.md) --- 对象 key 是否存在
 - [原型与原型链](./base/prototype.md) --- 面向对象编程
+- [获取屏幕宽度](./base/get-screen-width.md) --- 响应式获取屏幕宽度
 
 ## es6
 

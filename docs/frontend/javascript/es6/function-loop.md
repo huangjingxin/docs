@@ -87,6 +87,24 @@ x; // 2500
 
 至少执行一次。
 
+## map
+
+可以被打断，只能对数组生效。
+
+```js
+var arr = [3, 5, 7, 9];
+
+arr.map(e=>{console.log(e)})
+```
+
+## some
+
+满足条件就退出，实用方法与 map 一致。
+
+## every
+
+不满足条件就退出，实用方法与 map 一致。
+
 
 
 :::warning 参考链接
@@ -94,5 +112,7 @@ x; // 2500
 https://www.liaoxuefeng.com/
 
 https://www.zhangxinxu.com/wordpress/2018/08/for-in-es6-for-of/
+
+https://blog.csdn.net/zhangjing0320/article/details/80677129
 
 :::
