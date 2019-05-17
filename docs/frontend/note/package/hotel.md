@@ -1,6 +1,6 @@
 # hotel
 
-npm 的端口管理插件。
+npm 端口管理插件。
 
 ## 常用命令
 
@@ -12,8 +12,8 @@ hotel start
 hotel stop
 
 # 添加
-hotel add 'npm  start'
-hotel add 'live-server' --port 3000
+hotel add 'npm run start'
+hotel add 'live-server --port=3000' --port 3000
 
 # 删除
 hotel rm

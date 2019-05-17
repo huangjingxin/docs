@@ -9,6 +9,12 @@ npm install <name>
 # 全局安装
 npm install -g <name>
 
+# 安装在开发环境
+npm install <name> --save-dev
+
+# 安装在生产环境
+npm install <name> --save
+
 # 安装指定版本
 npm install --save <name>@<version>
 ```
@@ -72,7 +78,7 @@ npm config get registry
 # 全局安装 yarn
 npm i -g yarn
 
-# 使用 yarn,最好也改一下安装源
+# 使用 yarn,也改成国内安装源
 yarn config set registry https://registry.npm.taobao.org --global
 
 # 查看是否修改成功
@@ -82,12 +88,6 @@ yarn config get registry
 ## 常用的全局包
 
 ```bash
-npm i -g webpack
-npm i -g vue-cli
-npm i -g live-server
-npm i -g hotel
-npm i -g json-server
-npm i -g vuepress
-npm i -g dlf
+npm install -g webpack vue-cli live-server hotel json-server vuepress dlf
 ```
 

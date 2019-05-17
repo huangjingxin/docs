@@ -4,7 +4,15 @@
 
 ## for
 
-老古董，不解释。
+老古董，兼容性贼好，代码量多。
+
+```javascript
+let arr=[1,3,5,7];
+
+for(let i=0;i<arr;i++){
+    console.log(i)
+}
+```
 
 ## for...in
 
