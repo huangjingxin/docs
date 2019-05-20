@@ -39,6 +39,16 @@ re.test('010 12345'); // false
 
 存在，就要能够被应用。
 
+### 匹配
+
+```js
+# test
+/www.hjx24.com/.test('https://www.hjx24.com')
+
+# indexOf
+'https://www.hjx24.com'.indexOf('www.hjx24.com')
+```
+
 ### 切分字符串
 
 ```js

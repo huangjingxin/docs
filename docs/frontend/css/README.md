@@ -12,9 +12,13 @@
 
 - [scss使用](./scss.md)
 
+## 动画
+
+- [旋转效果](./animate/spin.md)
+- [animate动画](./animate/animate.md)
+
 ## 框架
 
-- [animate动画](./animate.md)
 - [tailwindcss](./tailwind/tailwind.md)
 
 

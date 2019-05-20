@@ -97,7 +97,7 @@ git commit -m "<message>"
 
 ## 远程仓库
 
-提交到远程仓库
+### 本地提交到远程仓库
 
 ```bash
 git push origin master
@@ -114,6 +114,19 @@ git config --global credential.helper store		//全局配置“记住密码”
 （2）公钥免密提交
 
 把用户主目录下的`.ssh/id_rsa.pub`文件粘贴到SSH公钥
+
+### 拉取远程仓库到本地
+
+```bash
+# 克隆
+git clone 
+
+# 更新
+git pull https://github.com/huangjingxin/www.git
+
+# 强制更新
+git fetch --all && git reset --hard origin/master && git pull
+```
 
 ## 分支管理
 
