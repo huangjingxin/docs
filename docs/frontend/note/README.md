@@ -8,6 +8,10 @@
 - [yarn](./package/yarn.md) --- 列举 yarn的常用操作，增删改查。
 - [hotel](./package/hotel.md) --- npm 端口管理插件，列举一些常用的命令。
 
+## 打包器
+
+- [webpack 学习](./webpack/learn-webpack.md) --- webpack 是现代前端的基础。
+
 ## vue
 
 - [vue生态](./vue/vue-ecology.md) --- 介绍 vue 全家桶及其周边。
@@ -32,8 +36,15 @@
 - [浏览器存储](./webstorage.md) --- 关键词：cookie,sessionStorage,localStorage
 - PWA --- 离线存储
 
+## 实用项
+
+- [批量下载图片](./download-image.md) --- 纯 js 在浏览器中实现批量下载
+- [批量重命名](./file-rename.md) --- 本地用 node.js 实现重命名
+
 ## 杂项
 
 - [修改默认端口号](./change-port.md) --- 有时候为了调试方便，需要在内网用手机访问。
-- [mongodb](./mongodb.md) --- NoSQL数据库，常用来代替 MySQL
+- [mongodb](./mongodb.md) --- NoSQL 数据库，常用来代替 MySQL
+- [\t,\r,\n,\r\n的区别](./symbol-in-text.md) --- 常见的文本符号
+- [robots.txt](./robots.md) --- 爬虫引导文件
 

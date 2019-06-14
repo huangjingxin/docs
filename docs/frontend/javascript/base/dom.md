@@ -4,24 +4,26 @@ DOM 也就是元素节点，主要介绍 DOM 的属性和简单操作。
 
 ## 属性
 
-一个 dom 节点，一般会有以下属性：
+| 属性             | 释义         | 例子               |
+| ---------------- | ------------ | ------------------ |
+| nodeName         | 标签名       | p、div             |
+| style            | 节点样式     | color、borderColor |
+| parentNode       | 父节点       |                    |
+| innerHTML        | 内部元素     |                    |
+| innerText        | 内部文本     |                    |
+| querySelector    | 查询（单个） |                    |
+| querySelectorAll | 查询（数组） |                    |
+| createElement    | 创建元素节点 |                    |
+| createTextNode   | 创建文本节点 |                    |
+| insertBefore     | 插入         |                    |
+| appendChild      | 增加         |                    |
+| append           | 增加         |                    |
+| remove           | 删除         |                    |
 
-| 属性       | 释义                                                         | 例子        |
-| ---------- | ------------------------------------------------------------ | ----------- |
-| nodeName   | 标签名                                                       | p、div      |
-| nodeValue  | 节点的值                                                     |             |
-| nodeType   | [节点类型](http://www.w3school.com.cn/htmldom/dom_properties.asp) | 普通元素为1 |
-| style      | 节点样式                                                     |             |
-| parentNode | 父节点                                                       |             |
-| innerHTML  | 内部元素                                                     |             |
-| innerText  | 内部文本                                                     |             |
-
-## 假设
-
-HTML 部分。
+## 样例
 
 ```html
-<ul id="color-list">
+<ul>
    <li>red</li>
    <li>yellow</li>
    <li>blue</li>
@@ -31,36 +33,30 @@ HTML 部分。
 </ul>
 ```
 
-JavaScript 部分。
-
-```js
-let colorList = document.querySelector('ul');
-let colors = document.querySelectorAll('li');
-    
-function add() {
-    let orange = document.createElement('li');
-    let text = document.createTextNode('orange')
-    orange.appendChild(text);
-    colorList.appendClild(orange);  //插入到末尾
-    colorList.insertBefore(orange,colors[2]); //插入在指定位置
-}
-```
-
 ## 操作
 
 ```js
 // 查询
-documen
+document.querySelector('ul>li:first-child')
+document.querySelector('ul>li:nth-child(2)')
+document.querySelector('ul>li:last-of-type')
 
 // 增加
+let ul = document.querySelector('ul');
+let orange = document.createElement('li');
+orange.innerText = 'orange';
+ul.append(orange);
+
+// 插入
+let blue=document.querySelector('ul>li:nth-child(3)')
+ul.insertBefore(orange,blue);
 
 // 修改
+let green = document.querySelector('li:nth-child(4)');
+green.innerText = 'teal';
 
 // 删除
-
-// 
-
-
-colorList.removeChild(orange)
+let white = document.querySelector('li:nth-child(6)');
+white.remove();
 ```
 

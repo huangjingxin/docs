@@ -18,7 +18,7 @@ function read(path) {
 }
 ```
 
-## 读取文件
+### 读取文件
 
 ```js
 function read(path) {

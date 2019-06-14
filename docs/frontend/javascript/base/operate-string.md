@@ -71,6 +71,9 @@ str.trim()；
 
 // 所有空格
 str.replace(/\s*/g,"");//'66'
+
+// 所有 空格、回车、换行
+str.replace(/[\r\n\s]/g,"");
 ```
 
 

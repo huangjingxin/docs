@@ -17,9 +17,11 @@
 
 ## es6
 
+- [Babel实现ES6语法转ES5](./es6/ES6-translate-ES5.md) --- 解决浏览器兼容性
 - [for...in/for...of](./es6/function-loop.md) --- 让代码更简洁
 - [export&import](./es6/export&import.md) --- 模块化编程
 - [异步函数](./es6/async.md) --- 常见的异步关键词，promise、ajax、async、await。
+- [set和map数据结构](./es6/set-map.md) --- es6新增，对应数组和对象
 
 ## 正则
 
@@ -28,5 +30,4 @@
 ## 杂项
 
 - [CSSOM](./misc/cssom-view-module.md) --- 介绍一些常用的视图模式api
-- [Babel实现ES6语法转ES5](./misc/ES6-translate-ES5.md) --- 解决浏览器兼容性
 

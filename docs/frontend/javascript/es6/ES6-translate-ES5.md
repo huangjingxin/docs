@@ -5,6 +5,9 @@
 需要用到 Babel 和 babel-preset-es2015
 
 ```bash
+# 查看是否安装 
+npm ls -g babel-cli
+
 # 全局安装 babel-cli
 npm install -g babel-cli
 
@@ -30,9 +33,13 @@ npm install --save-dev babel-preset-es2015 babel-cli
 在 package.json 文件中加入
 
 ```json
-  "scripts": {
-    "build": "babel src/index.js -o dist/index.js"
-  },
+"scripts": {
+   "build": "babel src/index.js -o dist/index.js"
+}
+
+// 转换整个目录
+babel src --out-dir dist
+babel src -d dist
 ```
 
 ## 运行

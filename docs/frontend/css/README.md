@@ -14,6 +14,7 @@
 
 ## 动画
 
+- [简单图形](./animate/simple-graph.md)
 - [旋转效果](./animate/spin.md)
 - [animate动画](./animate/animate.md)
 

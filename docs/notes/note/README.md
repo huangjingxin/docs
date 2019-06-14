@@ -6,6 +6,10 @@
 
 - [常用特殊符号](./symbol/character.md)
 
+## 常见图片
+
+- [常见图片格式对比](./image-type/image-compare.md)
+
 ## 未分类
 
 - [phpstudy设置](./phpstudy/phpstudy.md)

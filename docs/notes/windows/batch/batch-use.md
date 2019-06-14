@@ -44,7 +44,3 @@ mshta vbscript:window.clipboardData.setData("Text","")(window.close)
 ```
 
 如果你喜欢在桌面点击**刷新**，你就会知道**刷新**下面就是**粘贴**，容易点错。这时候它就有用了。
-
-## 批量重命名
-
-详情请见另一篇文章：https://www.hjx24.com/2018/10/07/batch-renames/

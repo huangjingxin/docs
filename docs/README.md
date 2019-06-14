@@ -4,7 +4,7 @@ home: true
 heroImage: /hero.svg
 actionText: 网站导航 →
 actionLink: /guide.md
-footer: MIT Licensed | Copyright © 2018-present huangjx
+footer: MIT Licensed | Copyright © 2019-present huangjx
 ---
 
 ## 你好，世界
@@ -15,7 +15,7 @@ footer: MIT Licensed | Copyright © 2018-present huangjx
 hello,world!
 ```
 
-Vue是由尤雨溪开发的前端框架，易学易用。
+Vue 是由尤雨溪开发的前端框架，易学易用。
 
 ```js{3}
 new Vue({

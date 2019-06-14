@@ -67,8 +67,6 @@ import 'tailwindcss/dist/tailwind.min.css'
 | 外框 | outline-none | outline: 0 |
 | 超出省略 | truncate | overflow: hidden;<br />text-overflow: ellipsis;<br />white-space: nowrap |
 
-## [颜色](https://www.tailwindcss.cn/docs/colors/)
+## [颜色](https://www.tailwindcss.cn/docs/customizing-colors#black-white)
 
 常用颜色的查询及使用
-
-![colors](./tailwind.jpg)

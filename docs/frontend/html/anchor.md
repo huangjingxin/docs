@@ -26,3 +26,8 @@
 <div id="here">我在这里</div>
 ```
 
+::: tip 注意
+
+直接跳转显得很生硬，最好加上 `html, body { scroll-behavior:smooth; }`。
+
+:::

@@ -1,15 +1,30 @@
 # 修改网页标签栏图标
 
-在 Index.html 中的 Head 标签中加入
+## 原生
 
 ```html
+<!-- 在 Index.html 中的 Head 标签中加入 -->
+
 <link rel="icon" href="path/to/xxx.jpg" type="image/x-icon">
 ```
 
-如果是 Vue ，还需在 build/webpack.dev.conf.js 目录文件下设置
+## vue
+
+### 开发环境 
 
 ```javascript
-// 在 new HtmlWebpackPlugin({}) 加入,跟上面路径一致
-favicon:'path/to/xxx.jpg',
+// build/webpack.dev.conf.js
+
+// 在 new HtmlWebpackPlugin({}) 加入 相对路径
+favicon:'src/image/favicon.png',
+```
+
+### 生产环境
+
+```js
+// build/webpack.prod.conf.js
+
+// 在 new HtmlWebpackPlugin({}) 加入 相对路径
+favicon:'src/image/favicon.png',
 ```
 

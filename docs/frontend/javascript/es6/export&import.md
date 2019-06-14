@@ -60,9 +60,7 @@ export 可以暴露多次，也可以一次暴露多个变量，最终他们会�
 let school = 'szy'
 let name = 'huangjx'
 let grade = 2
-export {
-    school
-}
+export { school }
 export {
     grade,
     name as student
@@ -116,7 +114,7 @@ export default name
 import temp from './temp'
 ```
 
-```
+```js
 console.log(temp)	//"huangjx"
 ```
 
