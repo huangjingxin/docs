@@ -2,7 +2,7 @@
 
 > 通过映射实现本地 dist 文件直接上传到服务器。
 
-Tools --> deployment --> configuration --> 点击加号  -->选择 ftp
+Tools --> deployment --> configuration --> 点击加号  -->选择 FTP
 
 然后设置如下：
 
@@ -12,6 +12,6 @@ Tools --> deployment --> configuration --> 点击加号  -->选择 ftp
 
 ::: warning 注意
 
-host,name,password是与服务器挂钩的，需要在服务器设置好才行
+host、name、password 是与服务器挂钩的，需要在服务器设置好才行。
 
 :::

@@ -59,15 +59,13 @@ Disallow: .png$
 
 ## 参考
 
-文章
+### 文章
 
-<http://www.chinaz.com/web/2012/0428/248613.shtml>
+- <http://www.chinaz.com/web/2012/0428/248613.shtml>
 
-robots.txt
+### robots.txt
 
-<https://www.baidu.com/robots.txt>
-
-<https://www.taobao.com/robots.txt>
-
-<https://www.qq.com/robots.txt>
+- <https://www.baidu.com/robots.txt>
+- <https://www.taobao.com/robots.txt>
+- <https://www.qq.com/robots.txt>
 

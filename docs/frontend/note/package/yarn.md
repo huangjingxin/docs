@@ -1,6 +1,6 @@
-# yarn常用命令
+# Yarn常用命令
 
-Yarn 是由 Facebook、Google、Exponent 和 Tilde 联合推出的包管理工具 ，比 npm 更快。
+Yarn 是由 Facebook、Google、Exponent 和 Tilde 联合推出的包管理工具 ，比 NPM 更快。
 
 ## 安装
 
@@ -15,7 +15,7 @@ yarn config set registry https://registry.npm.taobao.org --global
 yarn config get registry
 ```
 
-## 查看版本
+## 版本
 
 ```bash
 yarn --version
@@ -45,7 +45,7 @@ yarn add [package] --peer
 yarn add [package] --optional
 ```
 
-## 升级依赖包bash
+## 升级依赖包
 
 ```bash
 yarn upgrade [package]

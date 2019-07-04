@@ -1,4 +1,4 @@
-# git常用命令
+# Git常用命令
 
 ## 全局参数配置
 
@@ -164,8 +164,8 @@ git merge --no-ff -m "with no-ff" <name>
 
 几个基本原则：
 
-- master用来发布
-- dev用来干活
+- master 用来发布
+- dev 用来干活
 - 每个人都有自己的分支
 
 （4）工作现场
@@ -286,12 +286,12 @@ git remote --v		   //查看远程库信息
 
 ## 自定义git
 
-（1）忽略特殊文件名
+### 忽略特殊文件名
 
 忽略原则
 
-- 编译产生的中间件，比如java的.class
-- 软件产生的不需要文件，比如webstorm的.idea
+- 编译产生的中间件，比如 Java 的 .class
+- 软件产生的不需要文件，比如 WebStorm 的 .idea
 - 敏感信息配置文件，比如包含账号密码的文本
 
 ```bash
@@ -300,28 +300,26 @@ password.txt  	//忽略文件
 *.log			//忽略日志文件
 ```
 
-（2）命令简写
+### 命令简写
 
-例如，将`status`简写成`st` 
+例如，将 `status` 简写成 `st` 
 
 ```bash
 git config --global alias.st status
 ```
 
-以后可以使用`git st`替换`git status`命令
+以后可以使用 `git st` 替换 `git status` 命令
 
 ```bash
 git config --global alias.lg "log --graph --pretty=oneline --abbrev-commit"
 ```
 
-使用`git lg`就可以看分支图
+使用 `git lg` 就可以看分支图
 
-（3）搭建git服务器
+### 搭建Git服务器
 
-有条件百度一下基本就知道了
-
-推荐gitlab
+推荐 Gitlab，请百度解决。
 
 ::: warning 注意
-本文是学习[廖雪峰git](https://www.liaoxuefeng.com)教程之后的总结，为了不误导人，特意贴上源网址。
+本文是学习 [廖雪峰 Git 教程](https://www.liaoxuefeng.com) 后的总结，为了不误导人，特意贴上源网址。
 :::

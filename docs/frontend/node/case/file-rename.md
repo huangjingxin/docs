@@ -1,6 +1,6 @@
 # 批量重命名
 
-> node.js 实现重命名，把 JavaScript 的便利带到生活的方方面面。
+> Node.js 实现重命名，把 JavaScript 的便利带到生活的方方面面。
 
 ## 思路
 
@@ -43,7 +43,7 @@ fs.readdir('./', (err, lists) => {
 
     // 分类输出，比如 png、jpg、txt 等
     let obj = {};
-    lists.map(x => {
+    lists.forEach(x => {
         let type = path.extname(x).replace(/^./, "").toLowerCase();
         if (!obj.hasOwnProperty(type)) obj[type] = [];
         obj[type].push(x);
@@ -58,7 +58,7 @@ fs.readdir('./', (err, lists) => {
 })
 ```
 
-**使用方法**：cmd 切换到当前目录，进入 node 命令行，把代码分**两次**复制进去。
+**使用方法**：cmd 切换到当前目录，进入 Node 命令行，把代码分**两次**复制进去。
 
 **注意事项**：
 

@@ -1,6 +1,6 @@
 {
-  "name": "blog-docs",
-  "version": "1.1.0",
+  "name": "blog",
+  "version": "2.0.0",
   "description": "docs.hjx24.com",
   "main": "index.js",
   "scripts": {

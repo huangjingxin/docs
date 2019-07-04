@@ -121,14 +121,12 @@ return false  退出，使用方法与 map 一致。
 
 ### find
 
-查找符合的元素，找到即返回该元素。
-
-例举一种使用场景，模糊查找，代码如下：
+查找符合的元素，找到即返回该元素。举个栗子，模糊查找，代码如下：
 
 ```js
-let arr = ['Apple', 'pear', 'orange'];
+let arr = ['Apple', 'Pear', 'Orange'];
 
-arr.find(x => /oran/.test(x.toLowerCase()));
+arr.find(x => x.toLowerCase().includes('oran'));
 ```
 
 ### findIndex

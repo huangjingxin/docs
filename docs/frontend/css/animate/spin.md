@@ -8,13 +8,13 @@
 
 ## 代码
 
-### html
+### HTML
 
 ```html
 <img src="./SVG/home.png" height="128" width="128" id="loading"/>
 ```
 
-### css
+### CSS
 
 ```css
 @-webkit-keyframes rotation {

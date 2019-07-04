@@ -1,6 +1,6 @@
 # 居中
 
-很常见的CSS布局，分垂直居中、水平居中。
+很常见的 CSS 布局，分垂直居中、水平居中。
 
 ## 水平居中
 
@@ -17,7 +17,7 @@ body { text-align:center; }
 
 ## 全部居中
 
-### flex实现流式居中
+### flex 实现流式居中
 
 ```css
 /* 这种是最常用的，只需要在父元素上面设置一下即可，没有副作用 */
@@ -28,7 +28,7 @@ body { text-align:center; }
 }
 ```
 
-### translate实现绝对定位居中
+### translate 实现绝对定位居中
 
 ```css
 .element {
@@ -38,7 +38,7 @@ body { text-align:center; }
 }
 ```
 
-### margin:auto实现绝对定位居中
+### margin:auto 实现绝对定位居中
 
 ```css
 .element {

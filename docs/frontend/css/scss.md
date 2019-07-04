@@ -1,12 +1,12 @@
-# 使用scss
+# 使用 Scss
 
-scss 基于 Ruby 开发，需要安装 Ruby 环境才能使用。
+Scss 基于 Ruby 开发，需要安装 Ruby 环境才能使用。
 
 ## 安装 Ruby
 
-[官网下载 Ruby ](https://rubyinstaller.org/downloads/)并安装。安装时全部 √ ，确保能安装成功。完成前的 √ 不要选。
+[官网下载 Ruby ](https://rubyinstaller.org/downloads/) 并安装。安装时全部 √ ，确保能安装成功。完成前的 √ 不要选。
 
-测试安装是否成功，cmd 中输入：
+测试安装是否成功，CMD 中输入：
 
 ```bash
 ruby -v
@@ -14,7 +14,7 @@ ruby -v
 ruby 2.6.0p0 (2018-12-25 revision 66547) [x64-mingw32]
 ```
 
-国内网络问题，需要换 gem 源
+国内网络问题，需要换 Gem 源
 
 ```bash
 gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
@@ -23,7 +23,7 @@ gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 gem sources -l
 ```
 
-## 安装sass
+## 安装 Sass
 
 ```bash
 gem install sass
@@ -34,7 +34,7 @@ sass -v
 compass -v
 ```
 
-sass常用命令
+Sass常用命令
 
 ```bash
 # 更新sass
@@ -47,7 +47,7 @@ sass -v
 sass -h
 ```
 
-## 使用sass
+## 使用 Sass
 
 命令行编译
 

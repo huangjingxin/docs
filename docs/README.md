@@ -4,28 +4,16 @@ home: true
 heroImage: /hero.svg
 actionText: 网站导航 →
 actionLink: /guide.md
-footer: MIT Licensed | Copyright © 2019-present huangjx
+footer: MIT Licensed | Copyright © 2018-2019 huangjx
 ---
 
-## 你好，世界
-
-每次编程都会用到这句话，所以成为了经典。
-
-```text
-hello,world!
-```
-
-Vue 是由尤雨溪开发的前端框架，易学易用。
+## 喜欢，就继续下去
 
 ```js{3}
-new Vue({
-    data:{
-        name:'huangjingxin',
-        age:24,
-        mail:'chinahuangjx@gmail.com'
-    },
-})
+Name: 'huangjingxin',
+Age: 24,
+Email: 'chinahuangjx@outlook.com',
+Declare: '转载 | 侵权 请联系作者 👆'
 ```
-
 
 

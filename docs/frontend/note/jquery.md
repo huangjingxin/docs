@@ -1,18 +1,18 @@
-# jquery
+# jQuery
 
-虽然 jquery 快退出历史舞台了，但是很多老代码充斥着它。总之一句话，你可以不用，但是得会。
+虽然 jQuery 快退出历史舞台了，但是很多老代码充斥着它。总之一句话，你可以不用，但是得会。
 
 ## 文档就绪事件
 
 原生写法 Document.ready(function(){});
 
-jquery 写法：$(document).ready(function(){});
+jQuery 写法：$(document).ready(function(){});
 
-jquery 简写：$(function(){});
+jQuery 简写：$(function(){});
 
 ## 选择器
 
-jquery 的精髓就在于此。
+jQuery 的精髓就在于此。
 
 ```js
 // 元素选择器

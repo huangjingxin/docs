@@ -1,22 +1,28 @@
 # 环境搭建
 
-从零开始搭建 Vue 开发用的环境
+从零开始搭建 Vue 开发用的环境。
 
 ## Vue全局开发环境搭建
+
+全局指 JDK 环境和 NPM 包的 global 环境。
 
 ### 安装环境
 
 1. node
 2. git
-3. vue-cli
+3. vue-cli3
 4. webpack
 5. json-server
 6. mock
 
-### 生成新项目
+### Vue CLI 3
 
 ```bash
-vue init webpack <name>
+# npm
+npm install -g @vue/cli
+
+# ui 通过可视化界面创建项目
+vue ui
 ```
 
 ### 项目试运行
@@ -25,9 +31,17 @@ vue init webpack <name>
 npm run dev
 ```
 
+### 项目打包
+
+```bash
+npm run build
+```
+
 ## Vue 项目开发环境搭建
 
-## vuex
+项目指的是 Dev 环境，包括 dependencies 和 devDependencies。
+
+### Vuex
 
 ```bash
 # 安装 vuex
@@ -39,11 +53,12 @@ import Vuex from 'vuex'
 Vue.use(Vuex)
 
 # 兼容 IE
+# 去 ta 娘的 IE，一个必死的浏览器，为什么我们还要兼容它。不兼容让它死快点，岂不美哉！
 npm install es6-promise --save
 yarn add es6-promise
 ```
 
-### tailwindcss
+### Tailwind CSS
 
 ```bash
 # 安装 tailwindcss
@@ -73,7 +88,7 @@ Vue.prototype.$get = get;
 Vue.prototype.$post = post;
 ```
 
-### scss/sass
+### Scss/Sass
 
 ```bash
 # 安装 sass （sass-loader依赖于node-sass）
@@ -108,6 +123,8 @@ scss: generateLoaders('sass').concat(
 
 ## JSON 数据环境
 
+模拟后端数据，不等待才更快。
+
 ### 有数据
 
 ```bash
@@ -116,9 +133,7 @@ json-server --watch <name> --port 3000
 
 ### 无数据
 
-mockjs 环境
-
-编写一个 js 的 name 文件
+mockjs 环境，编写一个 js 的 name 文件自动生成数据。
 
 ```bash
 # 运行 js 文件

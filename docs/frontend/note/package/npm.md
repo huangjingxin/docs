@@ -1,4 +1,4 @@
-# npm常用命令
+# NPM常用命令
 
 ## 安装
 
@@ -62,7 +62,7 @@ npm ls -g --depth 0
 npm info <name>
 ```
 
-## 更换镜像
+## NPM
 
 ```bash
 # 修改设置，默认是 https://registry.npmjs.org （需要科学上网）
@@ -72,22 +72,28 @@ npm config set registry https://registry.npm.taobao.org --global
 npm config get registry
 ```
 
-## 使用yarn
+## Yarn
 
 ```bash
-# 全局安装 yarn
+# 全局安装 Yarn
 npm i -g yarn
 
-# 使用 yarn,也改成国内安装源
+# 改成国内安装源
 yarn config set registry https://registry.npm.taobao.org --global
 
 # 查看是否修改成功
 yarn config get registry
 ```
 
-## 常用的全局包
+## 全局包
 
 ```bash
-npm install -g webpack vue-cli live-server hotel json-server vuepress dlf
+npm install -g hotel live-server json-server webpack vuepress rimraf
+
+# 2.x
+npm install -g vue-cli
+
+# 3.x
+npm install -g @vue/cli
 ```
 

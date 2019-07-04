@@ -12,6 +12,6 @@
 
 ## 未分类
 
-- [phpstudy设置](./phpstudy/phpstudy.md)
-- [composer安装](./composer/composer.md)
+- [phpStudy 设置](./phpstudy/phpstudy.md)
+- [Composer 安装](./composer/composer.md)
 

@@ -1,12 +1,12 @@
-# html中的视频
+# HTML中的视频
 
 时常遇到需要在网页里面嵌入视频的情况，这个事情还真的不好做。
 
-## 本地标签
+## 网页标签
 
 兼容性与格式
 
-### 兼容型
+### object
 
 古老的 `<object></object>` 标签，不好用，但是兼容性好。
 
@@ -24,17 +24,22 @@
 </object>
 ```
 
-### html5
+### video
 
-`<video></video>` 用起来很方便，但是兼容性差
+HTML5 的  `<video></video>` 用起来很方便，但是兼容性差。
 
 ```html
-<video width="602px" height="345px" controls="controls"> 
-<source src="public/video/test.mp4" type="video/mp4"></source> 
-<source src="public/video/test.ogg" type="video/ogg"></source> 
+<video width="602px" height="345px" src="path/to/demo.mp4" controls> 
 你的浏览器不支持 video 标签
 </video>
 ```
+
+主要几个属性：
+
+- play - 播放
+- pause - 暂停
+- paused - 播放状态（返回 true / false）
+- 
 
 ## 平台引入
 
@@ -46,7 +51,7 @@
 
 
 
-### youtube
+### YouTube
 
 
 

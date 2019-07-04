@@ -1,10 +1,10 @@
-# webstorage
+# Web Storage
 
-> 关键词：cookie,sessionStorage,localStorage
+> 关键词：cookie、sessionStorage、localStorage
 
 ## cookie
 
-特性：不能超过4kb，有生命周期。占用带宽，不适合访问与修改。
+特性：不能超过 4 KB，有生命周期。占用带宽，不适合访问与修改。
 
 应用场景：验证是否登录，兼容性好
 
@@ -40,8 +40,8 @@ sessionStorage.clear();
 
 ## localStorage
 
-特性：不超过5MB，永久存在。不能删除，有些场景不适合。
+特性：不超过 5 MB，永久存在。不能删除，有些场景不适合。
 
-应用场景：常用于长期登录（+判断用户是否已登录）
+应用场景：常用于长期登录（+ 判断用户是否已登录）
 
-用法与`session`一样，关键词改成 `localStorage` 即可。
+用法与 `session` 一样，关键词改成 `localStorage` 即可。

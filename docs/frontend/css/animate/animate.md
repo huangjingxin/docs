@@ -14,7 +14,7 @@ Vue.use(animated);
 ## 使用
 
 ```vue
-//使用duration来统一设置入场和离场时候动画
+//使用 duration 来统一设置入场和离场时候动画
   //还可以分别设置 :duration="{enter:200,leave:400}"
   <transition name="fade" enter-active-class="animated bounceIn"
    						  leave-active-class="animated bounceIn"

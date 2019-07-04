@@ -1,6 +1,6 @@
 # 路径问题
 
-> node 中的 path 和 url 模块。
+> Node 中的 path 和 url 模块。
 
 ## path
 

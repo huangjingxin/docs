@@ -2,7 +2,7 @@
 
 有些设置总是忘记，我觉得有必要记录下来。
 
-## 常用锁定样式
+## 重置样式
 
 ```css
 body, html, ul, li, h1, h2, h3, table, tr, th, td {

@@ -1,10 +1,10 @@
-# phpstudy
+# phpStudy
 
-前端设置 phpstudy 作为本地文档的静态服务器。
+前端设置 phpStudy 作为本地文档的静态服务器。
 
 ## 下载安装
 
-地址：[php中文网](http://phpstudy.php.cn/download.html)
+地址：[php 中文网](http://phpstudy.php.cn/download.html)
 
 ## 配置
 
@@ -36,7 +36,7 @@ PHP拓展及设置→PHP拓展
 
 ![QQ截图20190106160013](./image/20190106160013.png)
 
-勾选上 php_openssl 、php_fileinfo
+勾选上 php_openssl、php_fileinfo
 
 ## 结束
 
@@ -44,4 +44,4 @@ PHP拓展及设置→PHP拓展
 
 ## 参考链接
 
-https://baijunyao.com/article/114
+- https://baijunyao.com/article/114

@@ -1,13 +1,13 @@
-# vue传参
+# Vue传参
 
 `$emit`用于子组件向父组件调用父组件的方法，用法如下：
 
-```
-# 子组件 child
+```html
+# 子组件
 <button @click="$emit('cancel',argment)">取消</button>
 
-#父组件
-<child @cancel="console.log('argment')"/>
+# 父组件
+<button @cancel="console.log('argment')"></button>
 ```
 
 ## 不生效的情况
@@ -18,5 +18,5 @@
 
 2. 与 v-if 同时使用不生效
 
-   如果 dom 消失，会导致上面绑定的事件没有生效，可以使用异步执行。
+   如果 DOM 消失，会导致上面绑定的事件没有生效，可以使用异步执行。
 

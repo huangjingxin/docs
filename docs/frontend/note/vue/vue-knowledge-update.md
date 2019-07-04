@@ -1,6 +1,6 @@
-# vue进阶
+# Vue进阶
 
-> 关键词：keep-alive,transition
+> 关键词：keep-alive、transition
 
 ## keep-alive
 
@@ -18,7 +18,7 @@ keep-alive 可以让组件静态存储在内存中，再次访问时就不需要
 
 上面这种方式需要命名组件配合，不方便。
 
-使用 vue-router 的 meta 会更灵活，案例如下：
+使用 Vue Router 的 meta 会更灵活，案例如下：
 
 ```vue
 <transition name="router-fade" mode="out-in">
@@ -48,7 +48,7 @@ keep-alive 可以让组件静态存储在内存中，再次访问时就不需要
 
 自定义过渡类名（使用 [Animate.css](https://daneden.github.io/animate.css/) ）
 
-```js
+```html
  <link href="https://cdn.jsdelivr.net/npm/animate.css@3.5.1" rel="stylesheet" type="text/css">
 
 <transition

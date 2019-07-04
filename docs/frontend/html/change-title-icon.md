@@ -3,12 +3,12 @@
 ## 原生
 
 ```html
-<!-- 在 Index.html 中的 Head 标签中加入 -->
+<!-- 在 index.html 中的 head 标签中加入 -->
 
 <link rel="icon" href="path/to/xxx.jpg" type="image/x-icon">
 ```
 
-## vue
+## Vue
 
 ### 开发环境 
 
@@ -27,4 +27,13 @@ favicon:'src/image/favicon.png',
 // 在 new HtmlWebpackPlugin({}) 加入 相对路径
 favicon:'src/image/favicon.png',
 ```
+
+## 大小
+
+一般使用 16×16 大小，当然，肯定是越大越好。下面是常用的大小：
+
+- 16×16（不推荐）
+- 32×32
+- 64×64
+- 128×128
 

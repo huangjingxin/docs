@@ -1,6 +1,6 @@
-# css
+# CSS
 
-> 记录与 css 相关的文档。
+> 记录与 CSS 相关的文档。
 
 ## 常用
 
@@ -8,19 +8,19 @@
 - [元素居中](./base/dom-center.md)
 - [元素选择器](./base/dom-select.md)
 
-## sass
+## 拓展
 
-- [scss使用](./scss.md)
+- [Scss使用](./scss.md)
 
 ## 动画
 
 - [简单图形](./animate/simple-graph.md)
 - [旋转效果](./animate/spin.md)
-- [animate动画](./animate/animate.md)
+- [Animate 动画](./animate/animate.md)
 
 ## 框架
 
-- [tailwindcss](./tailwind/tailwind.md)
+- [Tailwind CSS](./tailwind/tailwind.md)
 
 
 

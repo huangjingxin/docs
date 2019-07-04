@@ -1,4 +1,4 @@
-# tailwind
+# Tailwind
 
 一个实用工具集 CSS 框架，用于快速构建定制化用户界面。
 
@@ -19,7 +19,7 @@ import 'tailwindcss/dist/tailwind.min.css'
 
 ## 布局
 
-### flex布局
+### flex 布局
 
 | 样式     | 写法           | 属性                    |
 | -------- | -------------- | ----------------------- |

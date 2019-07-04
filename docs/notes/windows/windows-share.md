@@ -4,7 +4,7 @@
 
 ## 电脑与电脑的共享
 
-很多人家里都会有两台电脑，笔记本和台式，回到家的时候台式电脑用的多，笔记本一般在上班时候用。周末你用家里的台式机下载了一部好看的电影，你想等到上班的时候用笔记本看，怎么操作呢？用U盘吗？ 活在是21世纪的今天，你该学会用共享操作了，ftp直接访问，省时不费事（减少了U盘的插拔，省去了繁琐的操作）。
+很多人家里都会有两台电脑，笔记本和台式，回到家的时候台式电脑用的多，笔记本一般在上班时候用。周末你用家里的台式机下载了一部好看的电影，你想等到上班的时候用笔记本看，怎么操作呢？用 U盘吗？ 活在是 21 世纪的今天，你该学会用共享操作了，FTP 直接访问，省时不费事（减少了U盘的插拔，省去了繁琐的操作）。
 
 ### 共享设置
 
@@ -22,7 +22,7 @@
 
 3）开启远程服务
 
-运行 services.msc ➩开启 Remote Desktop services![远程服务](./img/remote-service.jpg)
+运行 services.msc ➩ 开启 Remote Desktop Services![远程服务](./img/remote-service.jpg)
 
 4）关闭密码保护
 
@@ -50,11 +50,13 @@
 
 
 
-## 电脑与手机、平板的共享
+## 电脑与手机&平板的共享
 
-你是否有这样的烦恼，在电脑上下载一本电子书或者一部电影，你想放到手机或者平板上，然后躺在床上看。小说倒是可以用QQ发送，但是电影的话就会很麻烦，下面就教你一些奇淫技巧，接好了🤔
+你是否有这样的烦恼，在电脑上下载一本电子书或者一部电影，你想放到手机或者平板上，然后躺在床上看。小说倒是可以用 QQ 发送，但是电影的话就会很麻烦，下面就教你一些奇淫技巧，接好了🤔
 
-### iphone 和 ipad 使用 **nplayer** 
+### nPlayer
+
+iPhone 和 iPad 通过 nPlayer 访问电脑磁盘。
 
 <div style="display: flex;flex-direction: row;justify-content: space-between;align-items: center">
   <img src="https://img.25pp.com/uploadfile/app/icon/20171024/1508857317395338.jpg@140w_140h" alt="">
@@ -63,32 +65,42 @@
     alt="">
 </div>
 
-这个软件非常强大，就像是电脑上的potplayer一样。如果你的电脑共享了磁盘，你可以轻松通过扫描网络，直接播放电脑上的电影，此过程并不需要下载。
+这个软件非常强大，就像是电脑上的 PotPlayer 一样。如果你的电脑共享了磁盘，你可以轻松通过扫描网络，直接播放电脑上的电影，此过程并不需要下载。
 
-你可以在 [appstore](https://itunes.apple.com/cn/app/id1116905928?mt=8) 花30块大洋下载，没有条件的可以移步 [pp助手](https://www.25pp.com/ios/detail_959431/) 。
+你可以在 [AppStore](https://itunes.apple.com/cn/app/id1116905928?mt=8) 花30块大洋下载，没有条件的可以移步 [PP助手](https://www.25pp.com/ios/detail_959431/) 。
 
-### 安卓可以使用 MXplayer 和 ES文件浏览器  
+### MXplayer 
 
-- **MXplayer**       	可以播放远程视频
-- **ES文件浏览器 **        可以获取远程文件
+安卓可以使用 MXplayer 和 ES文件浏览器 ，无线访问电脑磁盘。
 
-## FAQ
+- MXplayer --- 可以播放远程视频
+- ES文件浏览器 --- 可以获取远程文件
 
-如果以上设置还不能使你正常远程，可以尝试再设置下面几个：
+## 高频问题
 
-1. 本地安全策略➩本地策略➩安全选项➩网络访问：本地账户的共享和安全模型
+如果以上设置还不能使你正常远程，可以尝试下面的设置。
 
-   将  ”仅来宾“ 设置  “经典”
+### 安全模式
 
-2. 计算机管理➩用户➩隶属于
+本地安全策略➩本地策略➩安全选项➩网络访问：本地账户的共享和安全模型
 
-   添加 administrator
+将  ”仅来宾“ 设置  “经典”
 
-3. connection reset by peer（[@百度贴吧](https://tieba.baidu.com/p/5788013442)）
+### 权限不够
 
-   nplayer出现这个错误时，一般是电脑没有开启共享
+计算机管理➩用户➩隶属于
 
-   ![config](./img/config.png)
+添加 administrator
+
+### 连接错误
+
+显示：connection reset by peer
+
+方法：nPlayer 出现这个错误时，一般是电脑没有开启共享（[@百度贴吧](https://tieba.baidu.com/p/5788013442)）
+
+
+
+![config](./img/config.png)
 
 
 

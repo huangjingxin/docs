@@ -1,10 +1,10 @@
-# electron-vue
+# Electron-vue
 
-尝试用 electron-vue 构建项目。
+尝试用 Electron-vue 构建项目。
 
 ## 环境
 
-vue-cli 
+Vue CLI
 
 ```bash
 npm install -g vue-cli
@@ -45,4 +45,4 @@ yarn run dev
 
 编译不成功，文档太少。终止使用先。
 
-需要有使用 electron 的经验，先用官方 electron 构建项目再回来做。
+需要有使用 Electron 的经验，先用官方 Electron 构建项目再回来做。

@@ -6,7 +6,7 @@
 
 ## 安装
 
-全都不要勾选，url 使用 phpstudy 目录中的 php.exe，最好用7.0以上最新版
+全都不要勾选，URL 使用 phpStudy 目录中的 php.exe，最好用 7.0 以上最新版
 
 查看是否安装成功
 

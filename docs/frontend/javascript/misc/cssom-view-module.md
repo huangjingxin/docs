@@ -1,6 +1,6 @@
-# CSSOM视图模式api
+# CSSOM视图模式API
 
-对于元素，我们时常容易混淆的几个 api。基本都是兼容到 IE9。
+对于元素，我们时常容易混淆的几个 API。基本都是兼容到 IE 9。
 
 ## Window视图属性
 
@@ -70,8 +70,7 @@
 
 
 
-:::: warning 参考链接
+## 参考链接
 
-[CSSOM视图模式(CSSOM View Module)相关整理--张鑫旭](https://www.zhangxinxu.com/wordpress/2011/09/cssom视图模式cssom-view-module相关整理与介绍/)
+- [CSSOM视图模式(CSSOM View Module)相关整理--张鑫旭](https://www.zhangxinxu.com/wordpress/2011/09/cssom视图模式cssom-view-module相关整理与介绍/) 
 
-:::

@@ -1,17 +1,17 @@
-# linux
+# Linux
 
-> linux 相关
+> Linux 相关
 
 ## 常用
 
-- [常用命令](./linux.md) - 简单的命令行操作
-- [centos](./centos.md) - 安装 git，node，宝塔面板等
+- [常用命令](./linux.md) --- 简单的命令行操作
+- [CentOS](./centos.md) --- 安装 Git、Node、宝塔面板等
 
-## shell
+## Shell
 
-- [shell](./shell.md) - 一些 bash 命令，操作变量，字符串等
+- [Shell](./shell.md) --- 常用 Bash 命令，操作变量，字符串等
 
 ## 其它
 
-- [笔记本装CentOs](./g490-install-centos7.md) - 一次失败的经历
+- [笔记本装 CentOS](./g490-install-centos7.md) --- 一次失败的经历
 

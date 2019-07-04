@@ -1,4 +1,4 @@
-# centos
+# CentOs
 
 ## 常用命令
 
@@ -60,7 +60,7 @@ yum makecache
 yum install –y git
 ```
 
-## node
+## Node
 
 ```bash
 yum install -y nodejs

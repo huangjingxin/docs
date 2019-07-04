@@ -2,7 +2,7 @@
 
 面试必问的题目，必须掌握。
 
-## es6
+## ES6
 
 1. let 和 const
 2. 解构赋值
@@ -14,13 +14,13 @@
 8. Set 和 Map
 9. 模块 import 和 export
 
-## js的原型、原型链？
+## JS的原型、原型链？
 
 
 
 
 
-## html标签
+## HTML标签
 
 ```text
 （1）行内元素有：a b span img input select strong（强调的语气）
@@ -32,11 +32,11 @@
 
 ## 浏览器内核
 
-Trident(IE内核)
+Trident（IE 内核）
 
-Webkit(Safari内核,Chrome内核原型,开源)
+Webkit（Safari 内核、Chrome 内核原型、开源）
 
-Gecko(Firefox内核)
+Gecko（Firefox 内核）
 
 Chrome
 

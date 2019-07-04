@@ -1,4 +1,4 @@
-# webstorm设置
+# WebStorm设置
 
 > 安装完，进行一些设置必要的设置。
 
@@ -16,7 +16,7 @@ edit --> font
 
 ## 快捷键
 
-平时用 vs code 比较多，参照它的来设置。
+平时用 VS Code 比较多，参照它的来设置。
 
 1. 格式化
 
@@ -24,7 +24,7 @@ edit --> font
 
 2. 命令行终端
 
-   `terminal`设置为 Ctrl+\`;
+   `terminal` 设置为 Ctrl+\`;
 
 3. 重命名
 
@@ -41,8 +41,8 @@ edit --> font
 | 名称                       | 说明                   |
 | -------------------------- | ---------------------- |
 | codeGlance                 | 小地图                 |
-| vue.js                     | vue模板支持            |
-| css,less,scss,sass support | 为各种 css 提供支持    |
+| vue.js                     | Vue 模板支持           |
+| css,less,scss,sass support | 为各种 CSS 提供支持    |
 | script support             | 为 JavaScript 提供支持 |
 | editorConfig               | 缩进支持               |
 
@@ -50,4 +50,5 @@ edit --> font
 
 ## 说明
 
-以上设置出现没有代码提示的问题，待解决
+以上设置出现没有代码提示的问题，待解决。。。
+
