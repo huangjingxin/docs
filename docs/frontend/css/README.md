@@ -20,7 +20,8 @@
 
 ## 框架
 
-- [Tailwind CSS](./tailwind/tailwind.md)
+- [Tailwind CSS](./tailwind/tailwind.md) 
+- [Tailwind 思维](./tailwind/tailwind-core.md) 
 
 
 

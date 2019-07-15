@@ -26,7 +26,7 @@ document.querySelectorAll('img').forEach((e, index) => {
 // 将下面代码在源网站运行，然后放到外链网站粘贴运行
 
 let arr = [];
-document.querySelectorAll('.f14>a>img').forEach(e => {
+document.querySelectorAll('img').forEach(e => {
     arr.push(e.src)
 })
 console.log('总共有图片 '+arr.length+ ' 张');

@@ -44,7 +44,7 @@ fs.readdir('./', (err, lists) => {
     // 分类输出，比如 png、jpg、txt 等
     let obj = {};
     lists.forEach(x => {
-        let type = path.extname(x).replace(/^./, "").toLowerCase();
+        let type = path.extname(x).replace(/^\./, "").toLowerCase();
         if (!obj.hasOwnProperty(type)) obj[type] = [];
         obj[type].push(x);
     })

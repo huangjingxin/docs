@@ -13,7 +13,7 @@
 - [常用设置](./jetbrain/webstorm-config.md)
 - [FTP](./jetbrain/webstorm-deployment.md)
 
-## Git
+## 版本控制
 
-- [常用命令](./git/README.md)
+- [Git 常用命令](./git/README.md)
 

@@ -9,7 +9,7 @@ User-agent: *
 Disallow: /private/
 Allow: /
 
-Sitemap: https://www.hjx24.com/
+Sitemap: https://www.huangjingxin.com/
 ```
 
 屏蔽 `private` 目录，支持所有爬虫
